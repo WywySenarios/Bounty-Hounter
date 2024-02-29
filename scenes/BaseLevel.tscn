@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://resources/tileset.tres" type="TileSet" id=1]
+[ext_resource path="res://scenes/GameCamera.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/Player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/Flag.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scripts/BaseLevel.gd" type="Script" id=7]
+
+[node name="BaseLevel" type="Node"]
+script = ExtResource( 7 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 18, 18 )
+cell_quadrant_size = 18
+format = 1
+tile_data = PoolIntArray( -458768, 1, 0, -458767, 1, 0, -393232, 1, 0, -393231, 1, 0, -327696, 1, 0, -327695, 1, 0, -327694, 1, 0, -262160, 1, 0, -262159, 1, 0, -262158, 1, 0, -196624, 1, 0, -196623, 1, 0, -196622, 1, 0, -196621, 1, 0, -131088, 1, 0, -131087, 1, 0, -131086, 1, 0, -131085, 1, 0, -65552, 1, 0, -65551, 1, 0, -65550, 1, 0, -65549, 1, 0, -65548, 1, 0, -12, 1, 0, -11, 1, 0, -2, 1, 0, 65525, 1, 0, 65526, 1, 0, 65534, 1, 0, 131061, 1, 0, 131062, 1, 0, 131063, 1, 0, 131064, 1, 0, 131067, 1, 0, 131068, 1, 0, 131070, 1, 0, 131071, 1, 0, 196597, 1, 0, 196598, 1, 0, 196599, 1, 0, 196600, 1, 0, 196601, 1, 0, 262133, 1, 0, 262137, 1, 0, 262138, 1, 0, 327677, 1, 0, 393213, 1, 0, 393214, 1, 0, 393215, 1, 0, 327680, 1, 0, 327681, 1, 0, 327682, 1, 0, 327683, 1, 0, 327684, 1, 0, 327685, 1, 0, 327686, 1, 0, 327687, 1, 0, 327688, 1, 0, 327689, 1, 0, 327690, 1, 0, 327691, 1, 0, 327692, 1, 0, 327695, 1, 0, 458749, 1, 0, 458750, 1, 0, 393221, 1, 0, 393222, 1, 0, 393223, 1, 0, 393226, 1, 0, 393227, 1, 0, 393228, 1, 0, 393231, 1, 0, 458757, 1, 0, 458758, 1, 0, 458759, 1, 0, 458762, 1, 0, 458763, 1, 0, 458764, 1, 0 )
+
+[node name="GameCamera" parent="." instance=ExtResource( 2 )]
+
+[node name="TriggersAndTransitions" type="Node2D" parent="."]
+
+[node name="Flag" parent="TriggersAndTransitions" instance=ExtResource( 4 )]
+
+[node name="Enemies" type="Node2D" parent="."]
+
+[node name="Minibosses" type="Node2D" parent="."]
+
+[node name="Spikes" type="Node2D" parent="."]
+
+[node name="Collectibles" type="Node2D" parent="."]
+
+[node name="Player" parent="." instance=ExtResource( 3 )]
