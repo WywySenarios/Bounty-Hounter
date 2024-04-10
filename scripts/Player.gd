@@ -2,26 +2,55 @@ extends KinematicBody2D
 
 signal died
 
-var gravity = 1000
-var velocity = Vector2.ZERO
-var maxRunSpeed = 400
-var runAcceleration = 600
-var maxWalkSpeed = 200
-var xAcceleration = 800
-var jumpSpeed = 340
-var jumpEndMultiplier = 5
-var apexTweak = 5
-var hasDoubleJump = false
+enum State { NORMAL, DASHING }
 
+export(int, LAYERS_2D_PHYSICS) var dashHazardMask
+
+# we can put the variables in a seperate file but it's a bit complicated so do it later
 var left = "ui_left"
 var right = "ui_right"
 var jump = "ui_jump"
 var down = "ui_down"
 
+var gravity = 1000
+var velocity = Vector2.ZERO
+var maxRunSpeed = 400
+var runAcceleration = 600
+var maxWalkSpeed = 200
+var minDashSpeed = 200
+var maxDashSpeed = 650
+var xAcceleration = 800
+var jumpSpeed = 340
+var jumpEndMultiplier = 5
+var apexTweak = 5
+var hasDoubleJump = false
+var currentState = State.NORMAL
+var isStateNew = true
+
+var defaultHazardMask = 0
+
+
 func _ready():
 	$HitboxArea.connect("area_entered", self, "on_hazard_area_entered")
+	defaultHazardMask = $HitboxArea.collision_mask
 
 func _process(delta):
+	match currentState:
+		State.NORMAL:
+			process_normal(delta)
+		State.DASHING:
+			process_dash(delta)
+	isStateNew = false
+
+func change_state(newState):
+	currentState = newState
+	isStateNew = true
+
+func process_normal(delta):
+	if(isStateNew):
+		$DashArea/CollisionShape2D.disabled = true
+		$HitboxArea.collision_mask = defaultHazardMask
+	
 	var inputVector = get_input_vector()
 	
 	if(inputVector.x == 0):
@@ -55,13 +84,32 @@ func _process(delta):
 		hasDoubleJump = true
 		if(velocity.y == 0):
 			call_deferred("disable_floor_hitbox")
-		
+	
+	if(Input.is_action_just_pressed("ui_secondary")):
+		call_deferred("change_state", State.DASHING)
 	update_animation()
 
+func process_dash(delta):
+	if(isStateNew):
+		$DashArea/CollisionShape2D.disabled = false
+		$HitboxArea.collision_mask = dashHazardMask
+		var inputVector = get_input_vector()
+		var directionMod = 1 if $AnimatedSprite.flip_h else -1
+		velocity = Vector2(maxDashSpeed * directionMod, 0)
+	
+	velocity = move_and_slide(velocity, Vector2.UP)
+	velocity.x = lerp(0, velocity.x, pow(2, -8 * delta))
+	
+	if (abs(velocity.x) < minDashSpeed):
+		call_deferred("change_state", State.NORMAL)
 
 func get_input_vector():
 	var inputVector = Vector2.ZERO
-	inputVector.x = Input.get_action_strength(right) - Input.get_action_strength(left);
+	if(Input.get_action_strength(right) == Input.get_action_strength(left) && Input.get_action_strength(right) != 0):
+		inputVector.x = 1 if $AnimatedSprite.flip_h else -1
+	else:
+		inputVector.x = Input.get_action_strength(right) - Input.get_action_strength(left);
+		
 	inputVector.y = -1 if Input.is_action_just_pressed(jump) else 0
 	if(inputVector.y < 0):
 		$BufferTimer.start()
@@ -80,7 +128,7 @@ func update_animation():
 	if(inputVec.x != 0):
 		$AnimatedSprite.flip_h = true if inputVec.x > 0 else false
 
-func on_hazard_area_entered(area2d):
+func on_hazard_area_entered(_area2d):
 	emit_signal("died")
 
 func disable_floor_hitbox():

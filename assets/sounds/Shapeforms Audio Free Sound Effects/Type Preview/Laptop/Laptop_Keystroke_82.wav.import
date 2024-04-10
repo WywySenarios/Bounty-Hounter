@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Laptop_Keystroke_82.wav-eaca26d19564a0c8685f0120eb2df125.sample"
+
+[deps]
+
+source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Type Preview/Laptop/Laptop_Keystroke_82.wav"
+dest_files=[ "res://.import/Laptop_Keystroke_82.wav-eaca26d19564a0c8685f0120eb2df125.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
