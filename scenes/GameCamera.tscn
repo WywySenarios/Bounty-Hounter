@@ -4,7 +4,7 @@
 
 [sub_resource type="OpenSimplexNoise" id=1]
 
-[node name="GameCamera" type="Camera2D"]
+[node name="GameCamera" type="Camera2D" groups=["camera"]]
 current = true
 script = ExtResource( 1 )
 backgroundColor = Color( 0.898039, 1, 0.988235, 1 )

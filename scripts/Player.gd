@@ -20,7 +20,7 @@ var maxWalkSpeed = 200
 var minDashSpeed = 200
 var maxDashSpeed = 650
 var xAcceleration = 800
-var jumpSpeed = 340
+var jumpSpeed = 330
 var jumpEndMultiplier = 5
 var apexTweak = 5
 var hasDoubleJump = false
@@ -58,12 +58,36 @@ func process_normal(delta):
 	
 	velocity.x = clamp(velocity.x, -maxWalkSpeed, maxWalkSpeed)
 	
-	if (inputVector.y < 0 && (is_on_floor() && !$BufferTimer.is_stopped() || !$CoyoteTimer.is_stopped() || hasDoubleJump)):
-		$BufferTimer.stop()
-		velocity.y = inputVector.y * jumpSpeed
-		if(!is_on_floor() && $CoyoteTimer.is_stopped()):
+	# this is braindead mode jump thing
+	# !!! UNCOMMENT IN CASE OF EMERGENCY !!!
+	#if(!$SuperBufferTimer.is_stopped() && is_on_floor()):
+	#	$SuperBufferTimer.stop()
+	#	velocity.y = -1.1*jumpSpeed
+	
+	if(!$MiniTimer.is_stopped() && is_on_floor()):
+		$MiniTimer.stop()
+		velocity.y = -1*jumpSpeed
+		$"/root/Helpers".apply_camera_shake(0.5)
+	
+	if (inputVector.y < 0):
+		if(is_on_floor()):
+			if(!$SuperTimer.is_stopped()):
+				$SuperTimer.stop()
+				velocity.y = inputVector.y * 1.2*jumpSpeed
+			elif(!$BufferTimer.is_stopped() || !$CoyoteTimer.is_stopped()):
+				$CoyoteTimer.stop()
+				$BufferTimer.stop()
+				$SuperTimer.stop()
+				velocity.y = inputVector.y * jumpSpeed
+				$"/root/Helpers".apply_camera_shake(0.2)
+		elif(hasDoubleJump && !is_on_floor() && $CoyoteTimer.is_stopped()): #&& Input.get_action_strength("ui_down")):
 			hasDoubleJump = false
-		$CoyoteTimer.stop()
+			$SuperTimer.start()
+			$MiniTimer.start()
+			velocity.y += gravity * 1.5 * jumpEndMultiplier * delta
+			inputVector.x *= apexTweak
+			velocity.x *= 1.05
+			$"/root/Helpers".apply_camera_shake(0.8)
 	
 	if (velocity.y < 0 && !Input.is_action_pressed(jump)):
 		velocity.y += gravity * jumpEndMultiplier * delta
@@ -77,13 +101,13 @@ func process_normal(delta):
 	velocity = move_and_slide(velocity, Vector2.UP)
 
 	if(!is_on_floor()):
-		call_deferred("disable_floor_hitbox")
+		#call_deferred("disable_floor_hitbox")
 		if(wasOnFloor):
 			$CoyoteTimer.start()
 	else:
 		hasDoubleJump = true
-		if(velocity.y == 0):
-			call_deferred("disable_floor_hitbox")
+		#if(velocity.y == 0):
+			#call_deferred("enable_floor_hitbox")
 	
 	if(Input.is_action_just_pressed("ui_secondary")):
 		call_deferred("change_state", State.DASHING)
@@ -91,6 +115,7 @@ func process_normal(delta):
 
 func process_dash(delta):
 	if(isStateNew):
+		$"/root/Helpers".apply_camera_shake(.75)
 		$DashArea/CollisionShape2D.disabled = false
 		$HitboxArea.collision_mask = dashHazardMask
 		var inputVector = get_input_vector()
