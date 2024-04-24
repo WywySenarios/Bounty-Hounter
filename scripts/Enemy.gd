@@ -21,5 +21,5 @@ func _process(delta):
 	$AnimatedSprite.flip_h = true if direction.x > 0 else false
 
 func on_hitbox_entered(_area2d):
-	
+	$"/root/Helpers".apply_camera_shake(1)
 	queue_free()

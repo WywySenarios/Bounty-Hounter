@@ -33,4 +33,6 @@ tile_data = PoolIntArray( -458768, 1, 0, -458767, 1, 0, -393232, 1, 0, -393231, 
 
 [node name="Collectibles" type="Node2D" parent="."]
 
-[node name="Player" parent="." instance=ExtResource( 3 )]
+[node name="PlayerRoot" type="Node2D" parent="."]
+
+[node name="Player" parent="PlayerRoot" instance=ExtResource( 3 )]

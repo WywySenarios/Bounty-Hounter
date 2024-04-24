@@ -2,6 +2,8 @@ extends KinematicBody2D
 
 signal died
 
+var playerDeathScene = preload("res://scenes/PlayerDeath.tscn")
+
 enum State { NORMAL, DASHING }
 
 export(int, LAYERS_2D_PHYSICS) var dashHazardMask
@@ -10,6 +12,7 @@ export(int, LAYERS_2D_PHYSICS) var dashHazardMask
 var left = "ui_left"
 var right = "ui_right"
 var jump = "ui_jump"
+var jump2 = "ui_jump2"
 var down = "ui_down"
 
 var gravity = 1000
@@ -70,26 +73,30 @@ func process_normal(delta):
 		$"/root/Helpers".apply_camera_shake(0.5)
 	
 	if (inputVector.y < 0):
-		if(is_on_floor()):
-			if(!$SuperTimer.is_stopped()):
-				$SuperTimer.stop()
-				velocity.y = inputVector.y * 1.2*jumpSpeed
-			elif(!$BufferTimer.is_stopped() || !$CoyoteTimer.is_stopped()):
-				$CoyoteTimer.stop()
-				$BufferTimer.stop()
-				$SuperTimer.stop()
-				velocity.y = inputVector.y * jumpSpeed
-				$"/root/Helpers".apply_camera_shake(0.2)
-		elif(hasDoubleJump && !is_on_floor() && $CoyoteTimer.is_stopped()): #&& Input.get_action_strength("ui_down")):
+		if(!$CoyoteTimer.is_stopped()):
+			$CoyoteTimer.stop()
+			velocity.y = inputVector.y * jumpSpeed
+			$"/root/Helpers".apply_camera_shake(0.2)
+			
+		elif(hasDoubleJump && !is_on_floor()):
 			hasDoubleJump = false
 			$SuperTimer.start()
 			$MiniTimer.start()
 			velocity.y += gravity * 1.5 * jumpEndMultiplier * delta
 			inputVector.x *= apexTweak
 			velocity.x *= 1.05
-			$"/root/Helpers".apply_camera_shake(0.8)
+			$"/root/Helpers".apply_camera_shake(1)
+		elif(is_on_floor()):
+			if(!$SuperTimer.is_stopped()):
+				$SuperTimer.stop()
+				velocity.y = inputVector.y * 1.2*jumpSpeed
+			elif(!$BufferTimer.is_stopped()):
+				$BufferTimer.stop()
+				$SuperTimer.stop()
+				velocity.y = inputVector.y * jumpSpeed
+				$"/root/Helpers".apply_camera_shake(0.2)
 	
-	if (velocity.y < 0 && !Input.is_action_pressed(jump)):
+	if (velocity.y < 0 && !(Input.is_action_pressed(jump) && Input.is_action_pressed(jump2)) ):
 		velocity.y += gravity * jumpEndMultiplier * delta
 		inputVector.x *= apexTweak
 		velocity.x *= 1.05
@@ -153,8 +160,16 @@ func update_animation():
 	if(inputVec.x != 0):
 		$AnimatedSprite.flip_h = true if inputVec.x > 0 else false
 
-func on_hazard_area_entered(_area2d):
+func kill():
+	var playerDeathInstance = playerDeathScene.instance()
+	get_parent().add_child_below_node(self, playerDeathInstance)
+	playerDeathInstance.global_position = global_position
+	playerDeathInstance.velocity = velocity
 	emit_signal("died")
+
+func on_hazard_area_entered(_area2d):
+	$"/root/Helpers".apply_camera_shake(1)
+	call_deferred("kill")
 
 func disable_floor_hitbox():
 	$FloorCollisionShape2D.disabled = true

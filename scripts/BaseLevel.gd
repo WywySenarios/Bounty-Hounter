@@ -9,8 +9,8 @@ var totalCoins = 0
 var collectedCoins = 0
 
 func _ready():
-	spawnPosition = $Player.global_position
-	register_player($Player)
+	spawnPosition = $PlayerRoot/Player.global_position
+	register_player($PlayerRoot/Player)
 	coin_total_changed(get_tree().get_nodes_in_group("coin").size())
 
 	$TriggersAndTransitions/Flag.connect("player_won", self, "on_player_won")
@@ -29,12 +29,17 @@ func register_player(player):
 
 func create_player():
 	var playerInstance = playerScene.instance()
-	add_child_below_node( currentPlayerNode, playerInstance)
+	$PlayerRoot.add_child(playerInstance)
 	playerInstance.global_position = spawnPosition
 	register_player(playerInstance)
 
 func on_player_died():
 	currentPlayerNode.queue_free()
+	
+	#good for simple delays that only need to happen once
+	var timer = get_tree().create_timer(1)
+	yield(timer, "timeout")
+	
 	create_player()
 
 func on_player_won(): #change

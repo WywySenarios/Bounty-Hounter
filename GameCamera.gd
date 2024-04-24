@@ -13,7 +13,7 @@ var yNoiseSamplePosition = Vector2.ZERO
 var noiseSampleTravelRate = 500
 var maxShakeOffset = 8 # low number gives you gentle swaying, good for stormfront
 var currentShakePercentage =  0
-var shakeDecay = 5
+var shakeDecay = 3
 
 func _ready():
 	VisualServer.set_default_clear_color(backgroundColor)
