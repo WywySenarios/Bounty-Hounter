@@ -119,6 +119,8 @@ func process_normal(delta):
 		hasDoubleJump = true
 		#if(velocity.y == 0):
 			#call_deferred("enable_floor_hitbox")
+		if(!wasOnFloor && !isStateNew):
+			spawn_footsteps(1.5)
 	
 	if(Input.is_action_just_pressed("ui_secondary")):
 		call_deferred("change_state", State.DASHING)
@@ -185,8 +187,12 @@ func disable_floor_hitbox():
 func enable_floor_hitbox():
 	$FloorCollisionShape2D.disabled = false
 
+func spawn_footsteps(scale = 1):
+	var footstep = footstepParticles.instance()
+	get_parent().add_child(footstep)
+	footstep.scale = Vector2.ONE * scale
+	footstep.global_position = global_position
+
 func on_animated_sprite_frame_changed():
 	if($AnimatedSprite.animation == "walk" && $AnimatedSprite.frame == 0):
-		var footstep = footstepParticles.instance()
-		get_parent().add_child(footstep)
-		footstep.global_position = global_position
+		spawn_footsteps()

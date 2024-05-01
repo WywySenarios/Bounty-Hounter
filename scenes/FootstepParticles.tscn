@@ -39,8 +39,8 @@ particles_anim_v_frames = 1
 particles_anim_loop = false
 
 [sub_resource type="Gradient" id=5]
-offsets = PoolRealArray( 0.348485, 1 )
-colors = PoolColorArray( 1, 1, 1, 1, 1, 1, 1, 0.509804 )
+offsets = PoolRealArray( 0.472906, 1 )
+colors = PoolColorArray( 1, 1, 1, 0.658824, 1, 1, 1, 0.172549 )
 
 [sub_resource type="GradientTexture" id=6]
 gradient = SubResource( 5 )
@@ -64,6 +64,7 @@ angular_velocity = 180.0
 angular_velocity_random = 1.0
 orbit_velocity = 0.0
 orbit_velocity_random = 0.0
+scale = 1.5
 scale_curve = SubResource( 4 )
 color_ramp = SubResource( 6 )
 anim_offset = 1.0
@@ -76,6 +77,7 @@ autoplay = "default"
 anims/default = SubResource( 7 )
 
 [node name="Particles2D" type="Particles2D" parent="."]
+modulate = Color( 0.713726, 0.835294, 0.235294, 1 )
 material = SubResource( 1 )
 emitting = false
 amount = 3
