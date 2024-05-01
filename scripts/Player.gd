@@ -3,6 +3,7 @@ extends KinematicBody2D
 signal died
 
 var playerDeathScene = preload("res://scenes/PlayerDeath.tscn")
+var footstepParticles = preload("res://scenes/FootstepParticles.tscn")
 
 enum State { NORMAL, DASHING }
 
@@ -29,12 +30,14 @@ var apexTweak = 5
 var hasDoubleJump = false
 var currentState = State.NORMAL
 var isStateNew = true
+var isTerminal = false
 
 var defaultHazardMask = 0
 
 
 func _ready():
 	$HitboxArea.connect("area_entered", self, "on_hazard_area_entered")
+	$AnimatedSprite.connect("frame_changed", self, "on_animated_sprite_frame_changed")
 	defaultHazardMask = $HitboxArea.collision_mask
 
 func _process(delta):
@@ -51,6 +54,7 @@ func change_state(newState):
 
 func process_normal(delta):
 	if(isStateNew):
+		$DashParticles.emitting = false
 		$DashArea/CollisionShape2D.disabled = true
 		$HitboxArea.collision_mask = defaultHazardMask
 	
@@ -122,6 +126,7 @@ func process_normal(delta):
 
 func process_dash(delta):
 	if(isStateNew):
+		$DashParticles.emitting = true
 		$"/root/Helpers".apply_camera_shake(.75)
 		$DashArea/CollisionShape2D.disabled = false
 		$HitboxArea.collision_mask = dashHazardMask
@@ -161,10 +166,13 @@ func update_animation():
 		$AnimatedSprite.flip_h = true if inputVec.x > 0 else false
 
 func kill():
+	if(isTerminal):
+		return
+	isTerminal = true
 	var playerDeathInstance = playerDeathScene.instance()
+	playerDeathInstance.velocity = velocity
 	get_parent().add_child_below_node(self, playerDeathInstance)
 	playerDeathInstance.global_position = global_position
-	playerDeathInstance.velocity = velocity
 	emit_signal("died")
 
 func on_hazard_area_entered(_area2d):
@@ -176,3 +184,9 @@ func disable_floor_hitbox():
 
 func enable_floor_hitbox():
 	$FloorCollisionShape2D.disabled = false
+
+func on_animated_sprite_frame_changed():
+	if($AnimatedSprite.animation == "walk" && $AnimatedSprite.frame == 0):
+		var footstep = footstepParticles.instance()
+		get_parent().add_child(footstep)
+		footstep.global_position = global_position
