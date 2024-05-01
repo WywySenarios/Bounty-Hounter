@@ -113,7 +113,6 @@ process_material = SubResource( 7 )
 texture = ExtResource( 2 )
 
 [node name="PickupArea" type="Area2D" parent="."]
-visible = false
 collision_layer = 524288
 collision_mask = 524288
 
@@ -139,12 +138,10 @@ frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
 position = Vector2( 0, -8 )
 shape = SubResource( 1 )
 
 [node name="FloorCollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
 position = Vector2( 0.00157222, -7.50158 )
 rotation = -0.00315379
 shape = SubResource( 5 )
