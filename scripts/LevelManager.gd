@@ -4,8 +4,6 @@ export(Array, PackedScene) var levelScenes
 
 var currentLevelIndex = 0
 
-
-
 func change_level(levelIndex):
 	currentLevelIndex = levelIndex
 	if(currentLevelIndex >= levelScenes.size()):
