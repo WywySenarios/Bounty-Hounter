@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://resources/tileset.tres" type="TileSet" id=1]
 [ext_resource path="res://scripts/BaseLevel.gd" type="Script" id=2]
@@ -7,11 +7,16 @@
 [ext_resource path="res://scenes/UI/LevelUI.tscn" type="PackedScene" id=5]
 [ext_resource path="res://scenes/Flag.tscn" type="PackedScene" id=6]
 [ext_resource path="res://resources/deco_tileset.tres" type="TileSet" id=7]
+[ext_resource path="res://scenes/Clouds.tscn" type="PackedScene" id=8]
 
 [node name="BaseLevel" type="Node" groups=["base_level"]]
 script = ExtResource( 2 )
 
 [node name="LevelUI" parent="." instance=ExtResource( 5 )]
+
+[node name="GameCamera" parent="." instance=ExtResource( 4 )]
+
+[node name="Clouds" parent="GameCamera" instance=ExtResource( 8 )]
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
@@ -30,8 +35,6 @@ tile_set = ExtResource( 1 )
 cell_size = Vector2( 18, 18 )
 cell_quadrant_size = 18
 format = 1
-
-[node name="GameCamera" parent="." instance=ExtResource( 4 )]
 
 [node name="TriggersAndTransitions" type="Node2D" parent="."]
 

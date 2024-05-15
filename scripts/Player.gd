@@ -138,7 +138,6 @@ func process_dash(delta):
 	
 	velocity = move_and_slide(velocity, Vector2.UP)
 	velocity.x = lerp(0, velocity.x, pow(2, -8 * delta))
-	
 	if (abs(velocity.x) < minDashSpeed):
 		call_deferred("change_state", State.NORMAL)
 
