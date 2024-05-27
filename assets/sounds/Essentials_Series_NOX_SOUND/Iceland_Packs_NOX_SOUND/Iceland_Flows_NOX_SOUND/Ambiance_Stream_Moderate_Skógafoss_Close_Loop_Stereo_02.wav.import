@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Ambiance_Stream_Moderate_Skógafoss_Close_Loop_Stereo_02.wav-99c15a06440f91c0941f82d53d0fee22.sample"
+
+[deps]
+
+source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Iceland_Packs_NOX_SOUND/Iceland_Flows_NOX_SOUND/Ambiance_Stream_Moderate_Skógafoss_Close_Loop_Stereo_02.wav"
+dest_files=[ "res://.import/Ambiance_Stream_Moderate_Skógafoss_Close_Loop_Stereo_02.wav-99c15a06440f91c0941f82d53d0fee22.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

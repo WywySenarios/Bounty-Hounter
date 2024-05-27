@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Voice_Male_V1_Attack_Mono_01.wav-ed4aa7fe3bc8b6ad123d5874d6f5e669.sample"
+
+[deps]
+
+source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Voices_Essentials_NOX_SOUND/Voice_Male/Voice_Male_Attack/Voice_Male_V1_Attack_Mono_01.wav"
+dest_files=[ "res://.import/Voice_Male_V1_Attack_Mono_01.wav-ed4aa7fe3bc8b6ad123d5874d6f5e669.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

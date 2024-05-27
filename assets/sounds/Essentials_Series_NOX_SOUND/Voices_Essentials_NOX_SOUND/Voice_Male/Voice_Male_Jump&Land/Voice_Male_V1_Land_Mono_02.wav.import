@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Voice_Male_V1_Land_Mono_02.wav-42e918d59d61c938c20277743ca1e2af.sample"
+
+[deps]
+
+source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Voices_Essentials_NOX_SOUND/Voice_Male/Voice_Male_Jump&Land/Voice_Male_V1_Land_Mono_02.wav"
+dest_files=[ "res://.import/Voice_Male_V1_Land_Mono_02.wav-42e918d59d61c938c20277743ca1e2af.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Footsteps_Gravel_Walk_03.wav-2a658d2fa909e3bf3b570d98b5fc11ee.sample"
+
+[deps]
+
+source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_03.wav"
+dest_files=[ "res://.import/Footsteps_Gravel_Walk_03.wav-2a658d2fa909e3bf3b570d98b5fc11ee.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

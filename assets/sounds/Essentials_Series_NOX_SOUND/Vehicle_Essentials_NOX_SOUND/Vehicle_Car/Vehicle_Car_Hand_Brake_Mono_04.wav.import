@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Vehicle_Car_Hand_Brake_Mono_04.wav-ea6b219e752893cb4ed6b8cb9f4980df.sample"
+
+[deps]
+
+source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Hand_Brake_Mono_04.wav"
+dest_files=[ "res://.import/Vehicle_Car_Hand_Brake_Mono_04.wav-ea6b219e752893cb4ed6b8cb9f4980df.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

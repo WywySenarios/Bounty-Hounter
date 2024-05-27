@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Voice_Male_V1_Breath_Gasp_Mono_01.wav-ec69784f90170a26b0e0c878c77b2a68.sample"
+
+[deps]
+
+source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Voices_Essentials_NOX_SOUND/Voice_Male/Voice_Male_Breath/Voice_Male_V1_Breath_Gasp_Mono_01.wav"
+dest_files=[ "res://.import/Voice_Male_V1_Breath_Gasp_Mono_01.wav-ec69784f90170a26b0e0c878c77b2a68.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Footsteps_Rock_Walk_09.wav-c0d343771a28d72f058c694c88f784b4.sample"
+
+[deps]
+
+source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_09.wav"
+dest_files=[ "res://.import/Footsteps_Rock_Walk_09.wav-c0d343771a28d72f058c694c88f784b4.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bounty hounter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfa14b1d039a2ec2a39dda8e817a40aa701cc3d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c52ce21c2292d19891d44f62a4b51e0d07e11d5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bounty hounter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bounty hounter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Footsteps_Sand_Jump_Start_04.wav-3e015c0428cfc9753bffb5ab99820e40.sample"
+
+[deps]
+
+source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Sand/Footsteps_Sand_Jump/Footsteps_Sand_Jump_Start_04.wav"
+dest_files=[ "res://.import/Footsteps_Sand_Jump_Start_04.wav-3e015c0428cfc9753bffb5ab99820e40.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
