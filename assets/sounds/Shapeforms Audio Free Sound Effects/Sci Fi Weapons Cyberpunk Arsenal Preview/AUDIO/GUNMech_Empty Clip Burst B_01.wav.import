@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/GUNMech_Empty Clip Burst B_01.wav-96027ab86a67bfd363f0849259ed025d.sample"
+type="AudioStreamWAV"
+uid="uid://xpi73towsi4g"
+path="res://.godot/imported/GUNMech_Empty Clip Burst B_01.wav-96027ab86a67bfd363f0849259ed025d.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/GUNMech_Empty Clip Burst B_01.wav"
-dest_files=[ "res://.import/GUNMech_Empty Clip Burst B_01.wav-96027ab86a67bfd363f0849259ed025d.sample" ]
+dest_files=["res://.godot/imported/GUNMech_Empty Clip Burst B_01.wav-96027ab86a67bfd363f0849259ed025d.sample"]
 
 [params]
 

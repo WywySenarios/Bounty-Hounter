@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Holographic Interaction-32.wav-44849d976a64f93cb5135474dd264e40.sample"
+type="AudioStreamWAV"
+uid="uid://cyl06wwycxgyi"
+path="res://.godot/imported/Holographic Interaction-32.wav-44849d976a64f93cb5135474dd264e40.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Future UI Preview/Audio/Holographic Interaction-32.wav"
-dest_files=[ "res://.import/Holographic Interaction-32.wav-44849d976a64f93cb5135474dd264e40.sample" ]
+dest_files=["res://.godot/imported/Holographic Interaction-32.wav-44849d976a64f93cb5135474dd264e40.sample"]
 
 [params]
 

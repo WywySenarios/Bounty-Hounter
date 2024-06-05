@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "vrAlberLtRbe/5YOTOmst99ZUyEmlGq3C0lShk8uW0QLENDyhsu8f7oq7VQ8PGnez2VqnBnN1fpfQj5YmzmbPg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\pc\\Desktop\\Godot games\\Bounty-Hounter\\Bounty hounter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\godot.sourcegenerators\\4.2.2\\godot.sourcegenerators.4.2.2.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\godotsharp\\4.2.2\\godotsharp.4.2.2.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\godotsharpeditor\\4.2.2\\godotsharpeditor.4.2.2.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package GodotSharp 4.2.2 is not compatible with net472 (.NETFramework,Version=v4.7.2). Package GodotSharp 4.2.2 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "GodotSharp",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package GodotSharpEditor 4.2.2 is not compatible with net472 (.NETFramework,Version=v4.7.2). Package GodotSharpEditor 4.2.2 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "GodotSharpEditor",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    }
+  ]
+}

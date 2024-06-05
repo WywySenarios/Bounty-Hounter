@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_Water_Jump_Light_04.wav-98febc6c3cb6b0f12871a317c18e5c35.sample"
+type="AudioStreamWAV"
+uid="uid://dgeug1jpu3qs8"
+path="res://.godot/imported/Footsteps_Water_Jump_Light_04.wav-98febc6c3cb6b0f12871a317c18e5c35.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Water/Footsteps_Water_Jump/Footsteps_Water_Jump_Light_04.wav"
-dest_files=[ "res://.import/Footsteps_Water_Jump_Light_04.wav-98febc6c3cb6b0f12871a317c18e5c35.sample" ]
+dest_files=["res://.godot/imported/Footsteps_Water_Jump_Light_04.wav-98febc6c3cb6b0f12871a317c18e5c35.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/HIT_METAL_WRENCH_HEAVIEST_02.wav-ed6aa6eb1e31aeb4a204ae04abd7f3a1.sample"
+type="AudioStreamWAV"
+uid="uid://bj4vtnoykuddj"
+path="res://.godot/imported/HIT_METAL_WRENCH_HEAVIEST_02.wav-ed6aa6eb1e31aeb4a204ae04abd7f3a1.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Hit and Punch Preview/AUDIO/HIT_METAL_WRENCH_HEAVIEST_02.wav"
-dest_files=[ "res://.import/HIT_METAL_WRENCH_HEAVIEST_02.wav-ed6aa6eb1e31aeb4a204ae04abd7f3a1.sample" ]
+dest_files=["res://.godot/imported/HIT_METAL_WRENCH_HEAVIEST_02.wav-ed6aa6eb1e31aeb4a204ae04abd7f3a1.sample"]
 
 [params]
 

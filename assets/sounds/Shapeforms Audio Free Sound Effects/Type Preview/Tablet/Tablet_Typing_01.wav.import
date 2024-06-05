@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Tablet_Typing_01.wav-7cde3821e4358beb88b695a25cc743fa.sample"
+type="AudioStreamWAV"
+uid="uid://w6uh37jmkt0v"
+path="res://.godot/imported/Tablet_Typing_01.wav-7cde3821e4358beb88b695a25cc743fa.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Type Preview/Tablet/Tablet_Typing_01.wav"
-dest_files=[ "res://.import/Tablet_Typing_01.wav-7cde3821e4358beb88b695a25cc743fa.sample" ]
+dest_files=["res://.godot/imported/Tablet_Typing_01.wav-7cde3821e4358beb88b695a25cc743fa.sample"]
 
 [params]
 

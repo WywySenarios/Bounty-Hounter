@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Car_Seat_Belt_Mono_02.wav-183a8d1921d923e5653ee5460fd1647c.sample"
+type="AudioStreamWAV"
+uid="uid://bgd1e55kgnnq1"
+path="res://.godot/imported/Vehicle_Car_Seat_Belt_Mono_02.wav-183a8d1921d923e5653ee5460fd1647c.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Seat_Belt_Mono_02.wav"
-dest_files=[ "res://.import/Vehicle_Car_Seat_Belt_Mono_02.wav-183a8d1921d923e5653ee5460fd1647c.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Car_Seat_Belt_Mono_02.wav-183a8d1921d923e5653ee5460fd1647c.sample"]
 
 [params]
 

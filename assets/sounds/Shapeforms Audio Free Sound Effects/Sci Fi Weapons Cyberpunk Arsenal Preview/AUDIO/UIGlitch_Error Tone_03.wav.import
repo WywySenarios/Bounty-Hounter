@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/UIGlitch_Error Tone_03.wav-f53cc390949fca0c8ad6a32189d0f03a.sample"
+type="AudioStreamWAV"
+uid="uid://bakch0c6hh2lj"
+path="res://.godot/imported/UIGlitch_Error Tone_03.wav-f53cc390949fca0c8ad6a32189d0f03a.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/UIGlitch_Error Tone_03.wav"
-dest_files=[ "res://.import/UIGlitch_Error Tone_03.wav-f53cc390949fca0c8ad6a32189d0f03a.sample" ]
+dest_files=["res://.godot/imported/UIGlitch_Error Tone_03.wav-f53cc390949fca0c8ad6a32189d0f03a.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/EMF_TAPE_RECORDING_06.wav-5ec8fcf7c5c3c776a3890c8098ecaf30.sample"
+type="AudioStreamWAV"
+uid="uid://ya8qgwhcl2d4"
+path="res://.godot/imported/EMF_TAPE_RECORDING_06.wav-5ec8fcf7c5c3c776a3890c8098ecaf30.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Cassette Preview/AUDIO/EMF_TAPE_RECORDING_06.wav"
-dest_files=[ "res://.import/EMF_TAPE_RECORDING_06.wav-5ec8fcf7c5c3c776a3890c8098ecaf30.sample" ]
+dest_files=["res://.godot/imported/EMF_TAPE_RECORDING_06.wav-5ec8fcf7c5c3c776a3890c8098ecaf30.sample"]
 
 [params]
 

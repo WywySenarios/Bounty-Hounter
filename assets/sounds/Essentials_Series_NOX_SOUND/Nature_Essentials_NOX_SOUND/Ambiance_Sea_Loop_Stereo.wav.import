@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Ambiance_Sea_Loop_Stereo.wav-b0dd6fe3528d64eb2a2c98059e1eb98c.sample"
+type="AudioStreamWAV"
+uid="uid://gexarwpn5b3r"
+path="res://.godot/imported/Ambiance_Sea_Loop_Stereo.wav-b0dd6fe3528d64eb2a2c98059e1eb98c.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Nature_Essentials_NOX_SOUND/Ambiance_Sea_Loop_Stereo.wav"
-dest_files=[ "res://.import/Ambiance_Sea_Loop_Stereo.wav-b0dd6fe3528d64eb2a2c98059e1eb98c.sample" ]
+dest_files=["res://.godot/imported/Ambiance_Sea_Loop_Stereo.wav-b0dd6fe3528d64eb2a2c98059e1eb98c.sample"]
 
 [params]
 

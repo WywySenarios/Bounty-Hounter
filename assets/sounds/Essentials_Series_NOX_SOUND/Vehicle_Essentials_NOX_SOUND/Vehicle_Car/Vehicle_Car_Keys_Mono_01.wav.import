@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Car_Keys_Mono_01.wav-709c3e9ca256fc8e9cd67e1dca43f090.sample"
+type="AudioStreamWAV"
+uid="uid://cnuqgh8cvge22"
+path="res://.godot/imported/Vehicle_Car_Keys_Mono_01.wav-709c3e9ca256fc8e9cd67e1dca43f090.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Keys_Mono_01.wav"
-dest_files=[ "res://.import/Vehicle_Car_Keys_Mono_01.wav-709c3e9ca256fc8e9cd67e1dca43f090.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Car_Keys_Mono_01.wav-709c3e9ca256fc8e9cd67e1dca43f090.sample"]
 
 [params]
 

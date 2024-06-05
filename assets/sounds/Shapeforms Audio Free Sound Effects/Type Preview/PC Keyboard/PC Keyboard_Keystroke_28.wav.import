@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/PC Keyboard_Keystroke_28.wav-52ca0f07a746c22c0fabbf7caa81015d.sample"
+type="AudioStreamWAV"
+uid="uid://bwexgdxlb8qec"
+path="res://.godot/imported/PC Keyboard_Keystroke_28.wav-52ca0f07a746c22c0fabbf7caa81015d.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Type Preview/PC Keyboard/PC Keyboard_Keystroke_28.wav"
-dest_files=[ "res://.import/PC Keyboard_Keystroke_28.wav-52ca0f07a746c22c0fabbf7caa81015d.sample" ]
+dest_files=["res://.godot/imported/PC Keyboard_Keystroke_28.wav-52ca0f07a746c22c0fabbf7caa81015d.sample"]
 
 [params]
 

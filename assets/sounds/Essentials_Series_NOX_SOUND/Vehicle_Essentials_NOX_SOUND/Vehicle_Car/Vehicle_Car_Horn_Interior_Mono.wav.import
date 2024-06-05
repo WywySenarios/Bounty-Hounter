@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Car_Horn_Interior_Mono.wav-9475651a59de0f6190f9d5f9f17b1a2c.sample"
+type="AudioStreamWAV"
+uid="uid://7ih6u8noxmxg"
+path="res://.godot/imported/Vehicle_Car_Horn_Interior_Mono.wav-9475651a59de0f6190f9d5f9f17b1a2c.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Horn_Interior_Mono.wav"
-dest_files=[ "res://.import/Vehicle_Car_Horn_Interior_Mono.wav-9475651a59de0f6190f9d5f9f17b1a2c.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Car_Horn_Interior_Mono.wav-9475651a59de0f6190f9d5f9f17b1a2c.sample"]
 
 [params]
 

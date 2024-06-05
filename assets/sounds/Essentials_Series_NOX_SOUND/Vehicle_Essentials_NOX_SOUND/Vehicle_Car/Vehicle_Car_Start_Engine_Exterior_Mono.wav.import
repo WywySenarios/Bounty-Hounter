@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Car_Start_Engine_Exterior_Mono.wav-b3da72eb2d1efd49cd1c029d2f0a0b6e.sample"
+type="AudioStreamWAV"
+uid="uid://vpafi0rv0bim"
+path="res://.godot/imported/Vehicle_Car_Start_Engine_Exterior_Mono.wav-b3da72eb2d1efd49cd1c029d2f0a0b6e.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Start_Engine_Exterior_Mono.wav"
-dest_files=[ "res://.import/Vehicle_Car_Start_Engine_Exterior_Mono.wav-b3da72eb2d1efd49cd1c029d2f0a0b6e.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Car_Start_Engine_Exterior_Mono.wav-b3da72eb2d1efd49cd1c029d2f0a0b6e.sample"]
 
 [params]
 

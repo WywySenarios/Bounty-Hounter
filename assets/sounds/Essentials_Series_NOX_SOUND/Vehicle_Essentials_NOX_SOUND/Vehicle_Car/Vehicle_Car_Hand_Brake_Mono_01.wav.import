@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Car_Hand_Brake_Mono_01.wav-8a0bf22b4fb22f51f3810331401bb865.sample"
+type="AudioStreamWAV"
+uid="uid://cn7s5bmf36njp"
+path="res://.godot/imported/Vehicle_Car_Hand_Brake_Mono_01.wav-8a0bf22b4fb22f51f3810331401bb865.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Hand_Brake_Mono_01.wav"
-dest_files=[ "res://.import/Vehicle_Car_Hand_Brake_Mono_01.wav-8a0bf22b4fb22f51f3810331401bb865.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Car_Hand_Brake_Mono_01.wav-8a0bf22b4fb22f51f3810331401bb865.sample"]
 
 [params]
 

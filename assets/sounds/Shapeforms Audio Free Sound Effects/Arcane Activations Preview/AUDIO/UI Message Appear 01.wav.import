@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/UI Message Appear 01.wav-d6846d144967f21f5e1a441fbf1e9a94.sample"
+type="AudioStreamWAV"
+uid="uid://b6ildjf84t1cv"
+path="res://.godot/imported/UI Message Appear 01.wav-d6846d144967f21f5e1a441fbf1e9a94.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Arcane Activations Preview/AUDIO/UI Message Appear 01.wav"
-dest_files=[ "res://.import/UI Message Appear 01.wav-d6846d144967f21f5e1a441fbf1e9a94.sample" ]
+dest_files=["res://.godot/imported/UI Message Appear 01.wav-d6846d144967f21f5e1a441fbf1e9a94.sample"]
 
 [params]
 

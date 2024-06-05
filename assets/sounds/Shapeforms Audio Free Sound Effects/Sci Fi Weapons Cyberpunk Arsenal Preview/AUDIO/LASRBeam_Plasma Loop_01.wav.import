@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/LASRBeam_Plasma Loop_01.wav-107e380f87c0fb72ae27743dde19f5fd.sample"
+type="AudioStreamWAV"
+uid="uid://crhjncw2ep6u3"
+path="res://.godot/imported/LASRBeam_Plasma Loop_01.wav-107e380f87c0fb72ae27743dde19f5fd.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/LASRBeam_Plasma Loop_01.wav"
-dest_files=[ "res://.import/LASRBeam_Plasma Loop_01.wav-107e380f87c0fb72ae27743dde19f5fd.sample" ]
+dest_files=["res://.godot/imported/LASRBeam_Plasma Loop_01.wav-107e380f87c0fb72ae27743dde19f5fd.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Coin Slid Along Wood.wav-f21bb3f2b393a044fe627afd9cc60974.sample"
+type="AudioStreamWAV"
+uid="uid://clrm6p4okg5h2"
+path="res://.godot/imported/Coin Slid Along Wood.wav-f21bb3f2b393a044fe627afd9cc60974.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/The Mint ΓÇô Coins and Money Preview/AUDIO/Coin Slid Along Wood.wav"
-dest_files=[ "res://.import/Coin Slid Along Wood.wav-f21bb3f2b393a044fe627afd9cc60974.sample" ]
+dest_files=["res://.godot/imported/Coin Slid Along Wood.wav-f21bb3f2b393a044fe627afd9cc60974.sample"]
 
 [params]
 

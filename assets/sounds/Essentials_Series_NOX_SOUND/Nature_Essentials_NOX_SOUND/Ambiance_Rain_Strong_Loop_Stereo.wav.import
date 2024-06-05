@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Ambiance_Rain_Strong_Loop_Stereo.wav-198711ba2dee309280cd905fb4c2a2df.sample"
+type="AudioStreamWAV"
+uid="uid://xvxl3h4aaucp"
+path="res://.godot/imported/Ambiance_Rain_Strong_Loop_Stereo.wav-198711ba2dee309280cd905fb4c2a2df.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Nature_Essentials_NOX_SOUND/Ambiance_Rain_Strong_Loop_Stereo.wav"
-dest_files=[ "res://.import/Ambiance_Rain_Strong_Loop_Stereo.wav-198711ba2dee309280cd905fb4c2a2df.sample" ]
+dest_files=["res://.godot/imported/Ambiance_Rain_Strong_Loop_Stereo.wav-198711ba2dee309280cd905fb4c2a2df.sample"]
 
 [params]
 

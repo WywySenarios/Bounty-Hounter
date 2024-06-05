@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_Walk_Grass_Mono_23.wav-2523e793cd9bae7f35abf2fee698df2b.sample"
+type="AudioStreamWAV"
+uid="uid://ddsxxlyvsyvim"
+path="res://.godot/imported/Footsteps_Walk_Grass_Mono_23.wav-2523e793cd9bae7f35abf2fee698df2b.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_23.wav"
-dest_files=[ "res://.import/Footsteps_Walk_Grass_Mono_23.wav-2523e793cd9bae7f35abf2fee698df2b.sample" ]
+dest_files=["res://.godot/imported/Footsteps_Walk_Grass_Mono_23.wav-2523e793cd9bae7f35abf2fee698df2b.sample"]
 
 [params]
 

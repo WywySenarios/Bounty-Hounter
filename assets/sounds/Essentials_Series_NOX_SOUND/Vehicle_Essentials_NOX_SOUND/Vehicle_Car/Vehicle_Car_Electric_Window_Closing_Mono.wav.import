@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Car_Electric_Window_Closing_Mono.wav-bc5e00959ca0315936ad0fe28c445614.sample"
+type="AudioStreamWAV"
+uid="uid://dkcegxparcrbw"
+path="res://.godot/imported/Vehicle_Car_Electric_Window_Closing_Mono.wav-bc5e00959ca0315936ad0fe28c445614.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Electric_Window_Closing_Mono.wav"
-dest_files=[ "res://.import/Vehicle_Car_Electric_Window_Closing_Mono.wav-bc5e00959ca0315936ad0fe28c445614.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Car_Electric_Window_Closing_Mono.wav-bc5e00959ca0315936ad0fe28c445614.sample"]
 
 [params]
 

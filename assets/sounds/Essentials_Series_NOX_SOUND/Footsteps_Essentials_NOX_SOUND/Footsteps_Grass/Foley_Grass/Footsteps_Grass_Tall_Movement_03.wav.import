@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_Grass_Tall_Movement_03.wav-08a276424086408262f6b17255142bd7.sample"
+type="AudioStreamWAV"
+uid="uid://c8ki5b7daas7y"
+path="res://.godot/imported/Footsteps_Grass_Tall_Movement_03.wav-08a276424086408262f6b17255142bd7.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_03.wav"
-dest_files=[ "res://.import/Footsteps_Grass_Tall_Movement_03.wav-08a276424086408262f6b17255142bd7.sample" ]
+dest_files=["res://.godot/imported/Footsteps_Grass_Tall_Movement_03.wav-08a276424086408262f6b17255142bd7.sample"]
 
 [params]
 

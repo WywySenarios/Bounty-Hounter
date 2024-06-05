@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Ambiance_Sea_Strong_Vik_Close_Loop_Stereo_01.wav-16d353aec6c0d8cae97bb861f59ba769.sample"
+type="AudioStreamWAV"
+uid="uid://bmpp8oyxtu7oa"
+path="res://.godot/imported/Ambiance_Sea_Strong_Vik_Close_Loop_Stereo_01.wav-16d353aec6c0d8cae97bb861f59ba769.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Iceland_Packs_NOX_SOUND/Iceland_Flows_NOX_SOUND/Ambiance_Sea_Strong_Vik_Close_Loop_Stereo_01.wav"
-dest_files=[ "res://.import/Ambiance_Sea_Strong_Vik_Close_Loop_Stereo_01.wav-16d353aec6c0d8cae97bb861f59ba769.sample" ]
+dest_files=["res://.godot/imported/Ambiance_Sea_Strong_Vik_Close_Loop_Stereo_01.wav-16d353aec6c0d8cae97bb861f59ba769.sample"]
 
 [params]
 

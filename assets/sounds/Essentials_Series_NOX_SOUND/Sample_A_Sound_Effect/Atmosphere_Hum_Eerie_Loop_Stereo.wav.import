@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Atmosphere_Hum_Eerie_Loop_Stereo.wav-2b1d6dbe94dc63c316bfa4aae45539fc.sample"
+type="AudioStreamWAV"
+uid="uid://nhufry3tf2na"
+path="res://.godot/imported/Atmosphere_Hum_Eerie_Loop_Stereo.wav-2b1d6dbe94dc63c316bfa4aae45539fc.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Sample_A_Sound_Effect/Atmosphere_Hum_Eerie_Loop_Stereo.wav"
-dest_files=[ "res://.import/Atmosphere_Hum_Eerie_Loop_Stereo.wav-2b1d6dbe94dc63c316bfa4aae45539fc.sample" ]
+dest_files=["res://.godot/imported/Atmosphere_Hum_Eerie_Loop_Stereo.wav-2b1d6dbe94dc63c316bfa4aae45539fc.sample"]
 
 [params]
 

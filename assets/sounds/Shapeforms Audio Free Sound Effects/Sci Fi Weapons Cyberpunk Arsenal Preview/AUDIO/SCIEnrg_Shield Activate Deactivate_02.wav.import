@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/SCIEnrg_Shield Activate Deactivate_02.wav-6b45ae610cd658ce09f73b25c8efad69.sample"
+type="AudioStreamWAV"
+uid="uid://ccqxsiwgkm24x"
+path="res://.godot/imported/SCIEnrg_Shield Activate Deactivate_02.wav-6b45ae610cd658ce09f73b25c8efad69.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/SCIEnrg_Shield Activate Deactivate_02.wav"
-dest_files=[ "res://.import/SCIEnrg_Shield Activate Deactivate_02.wav-6b45ae610cd658ce09f73b25c8efad69.sample" ]
+dest_files=["res://.godot/imported/SCIEnrg_Shield Activate Deactivate_02.wav-6b45ae610cd658ce09f73b25c8efad69.sample"]
 
 [params]
 

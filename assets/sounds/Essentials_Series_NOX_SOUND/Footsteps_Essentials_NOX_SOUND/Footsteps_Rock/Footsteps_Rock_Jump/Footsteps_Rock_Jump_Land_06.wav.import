@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_Rock_Jump_Land_06.wav-379d6607af93f17e122be386aaf63942.sample"
+type="AudioStreamWAV"
+uid="uid://8kf6nkbmlcwu"
+path="res://.godot/imported/Footsteps_Rock_Jump_Land_06.wav-379d6607af93f17e122be386aaf63942.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Land_06.wav"
-dest_files=[ "res://.import/Footsteps_Rock_Jump_Land_06.wav-379d6607af93f17e122be386aaf63942.sample" ]
+dest_files=["res://.godot/imported/Footsteps_Rock_Jump_Land_06.wav-379d6607af93f17e122be386aaf63942.sample"]
 
 [params]
 

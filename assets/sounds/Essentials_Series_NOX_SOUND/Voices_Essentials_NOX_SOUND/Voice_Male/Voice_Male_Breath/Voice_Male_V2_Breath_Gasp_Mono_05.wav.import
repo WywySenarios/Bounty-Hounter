@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Voice_Male_V2_Breath_Gasp_Mono_05.wav-89d66817003af08d333b6f2c73f9afcd.sample"
+type="AudioStreamWAV"
+uid="uid://byn1wcdoil2iv"
+path="res://.godot/imported/Voice_Male_V2_Breath_Gasp_Mono_05.wav-89d66817003af08d333b6f2c73f9afcd.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Voices_Essentials_NOX_SOUND/Voice_Male/Voice_Male_Breath/Voice_Male_V2_Breath_Gasp_Mono_05.wav"
-dest_files=[ "res://.import/Voice_Male_V2_Breath_Gasp_Mono_05.wav-89d66817003af08d333b6f2c73f9afcd.sample" ]
+dest_files=["res://.godot/imported/Voice_Male_V2_Breath_Gasp_Mono_05.wav-89d66817003af08d333b6f2c73f9afcd.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_Gravel_Run_07.wav-a1a8aa4c733c8124f17c6b901ffe0154.sample"
+type="AudioStreamWAV"
+uid="uid://ygyk1jmxrkv5"
+path="res://.godot/imported/Footsteps_Gravel_Run_07.wav-a1a8aa4c733c8124f17c6b901ffe0154.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Gravel/Footsteps_Gravel_Run/Footsteps_Gravel_Run_07.wav"
-dest_files=[ "res://.import/Footsteps_Gravel_Run_07.wav-a1a8aa4c733c8124f17c6b901ffe0154.sample" ]
+dest_files=["res://.godot/imported/Footsteps_Gravel_Run_07.wav-a1a8aa4c733c8124f17c6b901ffe0154.sample"]
 
 [params]
 

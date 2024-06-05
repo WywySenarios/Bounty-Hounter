@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/GUNSupr_Silenced Pistol Fire Short_01.wav-e3d55166e5aeea2bb3d8d91e69f42b57.sample"
+type="AudioStreamWAV"
+uid="uid://cc8efdfplc33h"
+path="res://.godot/imported/GUNSupr_Silenced Pistol Fire Short_01.wav-e3d55166e5aeea2bb3d8d91e69f42b57.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/GUNSupr_Silenced Pistol Fire Short_01.wav"
-dest_files=[ "res://.import/GUNSupr_Silenced Pistol Fire Short_01.wav-e3d55166e5aeea2bb3d8d91e69f42b57.sample" ]
+dest_files=["res://.godot/imported/GUNSupr_Silenced Pistol Fire Short_01.wav-e3d55166e5aeea2bb3d8d91e69f42b57.sample"]
 
 [params]
 

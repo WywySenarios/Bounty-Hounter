@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/GUNMech_Mechanical_12.wav-2b8814a672702e2fa8784fbb2898ff72.sample"
+type="AudioStreamWAV"
+uid="uid://b3nax3yn3b2uc"
+path="res://.godot/imported/GUNMech_Mechanical_12.wav-2b8814a672702e2fa8784fbb2898ff72.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/GUNMech_Mechanical_12.wav"
-dest_files=[ "res://.import/GUNMech_Mechanical_12.wav-2b8814a672702e2fa8784fbb2898ff72.sample" ]
+dest_files=["res://.godot/imported/GUNMech_Mechanical_12.wav-2b8814a672702e2fa8784fbb2898ff72.sample"]
 
 [params]
 

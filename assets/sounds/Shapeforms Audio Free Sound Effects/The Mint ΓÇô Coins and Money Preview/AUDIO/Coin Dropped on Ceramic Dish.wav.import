@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Coin Dropped on Ceramic Dish.wav-cd26cb19bb73a9068467aced80f9cea5.sample"
+type="AudioStreamWAV"
+uid="uid://cah8gcrbu43s1"
+path="res://.godot/imported/Coin Dropped on Ceramic Dish.wav-cd26cb19bb73a9068467aced80f9cea5.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/The Mint ΓÇô Coins and Money Preview/AUDIO/Coin Dropped on Ceramic Dish.wav"
-dest_files=[ "res://.import/Coin Dropped on Ceramic Dish.wav-cd26cb19bb73a9068467aced80f9cea5.sample" ]
+dest_files=["res://.godot/imported/Coin Dropped on Ceramic Dish.wav-cd26cb19bb73a9068467aced80f9cea5.sample"]
 
 [params]
 

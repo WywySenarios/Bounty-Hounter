@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Ambiance_Firecamp_Small_Loop_Mono.wav-99f78eac0eb556a7c48e55d59ebc7304.sample"
+type="AudioStreamWAV"
+uid="uid://kn78igvsbmuk"
+path="res://.godot/imported/Ambiance_Firecamp_Small_Loop_Mono.wav-99f78eac0eb556a7c48e55d59ebc7304.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Nature_Essentials_NOX_SOUND/Ambiance_Firecamp_Small_Loop_Mono.wav"
-dest_files=[ "res://.import/Ambiance_Firecamp_Small_Loop_Mono.wav-99f78eac0eb556a7c48e55d59ebc7304.sample" ]
+dest_files=["res://.godot/imported/Ambiance_Firecamp_Small_Loop_Mono.wav-99f78eac0eb556a7c48e55d59ebc7304.sample"]
 
 [params]
 

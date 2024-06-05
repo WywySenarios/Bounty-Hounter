@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Car_Drive_Interior_Loop_Stereo_04.wav-22d71a5d333260687f7907ec8912df2e.sample"
+type="AudioStreamWAV"
+uid="uid://456onug3sadr"
+path="res://.godot/imported/Vehicle_Car_Drive_Interior_Loop_Stereo_04.wav-22d71a5d333260687f7907ec8912df2e.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Drive_Interior_Loop_Stereo_04.wav"
-dest_files=[ "res://.import/Vehicle_Car_Drive_Interior_Loop_Stereo_04.wav-22d71a5d333260687f7907ec8912df2e.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Car_Drive_Interior_Loop_Stereo_04.wav-22d71a5d333260687f7907ec8912df2e.sample"]
 
 [params]
 

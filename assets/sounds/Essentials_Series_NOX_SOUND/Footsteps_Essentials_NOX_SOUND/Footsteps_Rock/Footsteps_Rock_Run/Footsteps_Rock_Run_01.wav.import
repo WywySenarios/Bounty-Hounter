@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_Rock_Run_01.wav-7a52ff894a47728bf7f33a140969e8ac.sample"
+type="AudioStreamWAV"
+uid="uid://goxh2fluurum"
+path="res://.godot/imported/Footsteps_Rock_Run_01.wav-7a52ff894a47728bf7f33a140969e8ac.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Rock/Footsteps_Rock_Run/Footsteps_Rock_Run_01.wav"
-dest_files=[ "res://.import/Footsteps_Rock_Run_01.wav-7a52ff894a47728bf7f33a140969e8ac.sample" ]
+dest_files=["res://.godot/imported/Footsteps_Rock_Run_01.wav-7a52ff894a47728bf7f33a140969e8ac.sample"]
 
 [params]
 

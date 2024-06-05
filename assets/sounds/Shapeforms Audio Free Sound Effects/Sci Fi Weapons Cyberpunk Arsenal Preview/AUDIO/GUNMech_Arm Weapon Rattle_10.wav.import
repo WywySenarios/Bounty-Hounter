@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/GUNMech_Arm Weapon Rattle_10.wav-df519e582d70d46629c9735ca283be4a.sample"
+type="AudioStreamWAV"
+uid="uid://flqs2ugxyefn"
+path="res://.godot/imported/GUNMech_Arm Weapon Rattle_10.wav-df519e582d70d46629c9735ca283be4a.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/GUNMech_Arm Weapon Rattle_10.wav"
-dest_files=[ "res://.import/GUNMech_Arm Weapon Rattle_10.wav-df519e582d70d46629c9735ca283be4a.sample" ]
+dest_files=["res://.godot/imported/GUNMech_Arm Weapon Rattle_10.wav-df519e582d70d46629c9735ca283be4a.sample"]
 
 [params]
 

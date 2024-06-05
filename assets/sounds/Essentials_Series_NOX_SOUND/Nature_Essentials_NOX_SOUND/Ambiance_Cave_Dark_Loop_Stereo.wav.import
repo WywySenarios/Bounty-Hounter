@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Ambiance_Cave_Dark_Loop_Stereo.wav-a1732c7bace51a61f98a2fc8ee4ec3fa.sample"
+type="AudioStreamWAV"
+uid="uid://b5pnd4vyrm8vb"
+path="res://.godot/imported/Ambiance_Cave_Dark_Loop_Stereo.wav-a1732c7bace51a61f98a2fc8ee4ec3fa.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Nature_Essentials_NOX_SOUND/Ambiance_Cave_Dark_Loop_Stereo.wav"
-dest_files=[ "res://.import/Ambiance_Cave_Dark_Loop_Stereo.wav-a1732c7bace51a61f98a2fc8ee4ec3fa.sample" ]
+dest_files=["res://.godot/imported/Ambiance_Cave_Dark_Loop_Stereo.wav-a1732c7bace51a61f98a2fc8ee4ec3fa.sample"]
 
 [params]
 

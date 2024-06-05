@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/AMBIENCE_TUNNEL_WIND_LOOP.wav-ba4ab0b6f8718ed4db2010f4fb2a7cc1.sample"
+type="AudioStreamWAV"
+uid="uid://cvs3a2m8hs1l2"
+path="res://.godot/imported/AMBIENCE_TUNNEL_WIND_LOOP.wav-ba4ab0b6f8718ed4db2010f4fb2a7cc1.sample"
 
 [deps]
 
 source_file="res://assets/ambience/Dystopia ΓÇô Ambience and Drone Preview/AUDIO/AMBIENCE_TUNNEL_WIND_LOOP.wav"
-dest_files=[ "res://.import/AMBIENCE_TUNNEL_WIND_LOOP.wav-ba4ab0b6f8718ed4db2010f4fb2a7cc1.sample" ]
+dest_files=["res://.godot/imported/AMBIENCE_TUNNEL_WIND_LOOP.wav-ba4ab0b6f8718ed4db2010f4fb2a7cc1.sample"]
 
 [params]
 

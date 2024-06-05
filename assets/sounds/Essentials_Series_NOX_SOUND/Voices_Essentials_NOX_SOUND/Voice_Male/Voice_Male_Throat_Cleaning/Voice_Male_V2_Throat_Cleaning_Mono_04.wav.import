@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Voice_Male_V2_Throat_Cleaning_Mono_04.wav-236b7100b45407b6cebe2ddc9a42d841.sample"
+type="AudioStreamWAV"
+uid="uid://qurcpo74v8ts"
+path="res://.godot/imported/Voice_Male_V2_Throat_Cleaning_Mono_04.wav-236b7100b45407b6cebe2ddc9a42d841.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Voices_Essentials_NOX_SOUND/Voice_Male/Voice_Male_Throat_Cleaning/Voice_Male_V2_Throat_Cleaning_Mono_04.wav"
-dest_files=[ "res://.import/Voice_Male_V2_Throat_Cleaning_Mono_04.wav-236b7100b45407b6cebe2ddc9a42d841.sample" ]
+dest_files=["res://.godot/imported/Voice_Male_V2_Throat_Cleaning_Mono_04.wav-236b7100b45407b6cebe2ddc9a42d841.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Old Terminal Alarm Loop.wav-bd7104703a92fc469f0901eb604f134b.sample"
+type="AudioStreamWAV"
+uid="uid://ckq1haqeno71g"
+path="res://.godot/imported/Old Terminal Alarm Loop.wav-bd7104703a92fc469f0901eb604f134b.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Future UI Preview/Audio/Old Terminal Alarm Loop.wav"
-dest_files=[ "res://.import/Old Terminal Alarm Loop.wav-bd7104703a92fc469f0901eb604f134b.sample" ]
+dest_files=["res://.godot/imported/Old Terminal Alarm Loop.wav-bd7104703a92fc469f0901eb604f134b.sample"]
 
 [params]
 

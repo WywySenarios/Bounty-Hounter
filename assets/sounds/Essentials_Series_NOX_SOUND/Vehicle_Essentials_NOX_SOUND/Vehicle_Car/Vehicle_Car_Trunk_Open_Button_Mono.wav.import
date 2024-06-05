@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Car_Trunk_Open_Button_Mono.wav-bcc32a6081bdec2c646523bfc177448d.sample"
+type="AudioStreamWAV"
+uid="uid://cc8p51t3mo6jb"
+path="res://.godot/imported/Vehicle_Car_Trunk_Open_Button_Mono.wav-bcc32a6081bdec2c646523bfc177448d.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Trunk_Open_Button_Mono.wav"
-dest_files=[ "res://.import/Vehicle_Car_Trunk_Open_Button_Mono.wav-bcc32a6081bdec2c646523bfc177448d.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Car_Trunk_Open_Button_Mono.wav-bcc32a6081bdec2c646523bfc177448d.sample"]
 
 [params]
 

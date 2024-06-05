@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Household_Door_Wood_Open_Stereo.wav-def4096bcc8cd895dd13233cfe048588.sample"
+type="AudioStreamWAV"
+uid="uid://sp6vdw36e5re"
+path="res://.godot/imported/Household_Door_Wood_Open_Stereo.wav-def4096bcc8cd895dd13233cfe048588.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Sample_A_Sound_Effect/Household_Door_Wood_Open_Stereo.wav"
-dest_files=[ "res://.import/Household_Door_Wood_Open_Stereo.wav-def4096bcc8cd895dd13233cfe048588.sample" ]
+dest_files=["res://.godot/imported/Household_Door_Wood_Open_Stereo.wav-def4096bcc8cd895dd13233cfe048588.sample"]
 
 [params]
 

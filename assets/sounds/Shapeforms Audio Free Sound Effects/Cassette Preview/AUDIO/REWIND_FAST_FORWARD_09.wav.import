@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/REWIND_FAST_FORWARD_09.wav-6e1e6a6ab4b1db108a3f86adafa49cb2.sample"
+type="AudioStreamWAV"
+uid="uid://nhihip3hpsb4"
+path="res://.godot/imported/REWIND_FAST_FORWARD_09.wav-6e1e6a6ab4b1db108a3f86adafa49cb2.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Cassette Preview/AUDIO/REWIND_FAST_FORWARD_09.wav"
-dest_files=[ "res://.import/REWIND_FAST_FORWARD_09.wav-6e1e6a6ab4b1db108a3f86adafa49cb2.sample" ]
+dest_files=["res://.godot/imported/REWIND_FAST_FORWARD_09.wav-6e1e6a6ab4b1db108a3f86adafa49cb2.sample"]
 
 [params]
 

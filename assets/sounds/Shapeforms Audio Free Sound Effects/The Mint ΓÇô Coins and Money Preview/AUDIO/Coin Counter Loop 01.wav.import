@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Coin Counter Loop 01.wav-0c8b8de14bfa3a91ed2117778640979b.sample"
+type="AudioStreamWAV"
+uid="uid://dg18k2ee8dx60"
+path="res://.godot/imported/Coin Counter Loop 01.wav-0c8b8de14bfa3a91ed2117778640979b.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/The Mint ΓÇô Coins and Money Preview/AUDIO/Coin Counter Loop 01.wav"
-dest_files=[ "res://.import/Coin Counter Loop 01.wav-0c8b8de14bfa3a91ed2117778640979b.sample" ]
+dest_files=["res://.godot/imported/Coin Counter Loop 01.wav-0c8b8de14bfa3a91ed2117778640979b.sample"]
 
 [params]
 

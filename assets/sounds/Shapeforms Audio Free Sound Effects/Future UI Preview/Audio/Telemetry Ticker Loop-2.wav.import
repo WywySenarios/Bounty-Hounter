@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Telemetry Ticker Loop-2.wav-624ea9f5a89c2253978d1cebfab54302.sample"
+type="AudioStreamWAV"
+uid="uid://b1xsxalnewali"
+path="res://.godot/imported/Telemetry Ticker Loop-2.wav-624ea9f5a89c2253978d1cebfab54302.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Future UI Preview/Audio/Telemetry Ticker Loop-2.wav"
-dest_files=[ "res://.import/Telemetry Ticker Loop-2.wav-624ea9f5a89c2253978d1cebfab54302.sample" ]
+dest_files=["res://.godot/imported/Telemetry Ticker Loop-2.wav-624ea9f5a89c2253978d1cebfab54302.sample"]
 
 [params]
 

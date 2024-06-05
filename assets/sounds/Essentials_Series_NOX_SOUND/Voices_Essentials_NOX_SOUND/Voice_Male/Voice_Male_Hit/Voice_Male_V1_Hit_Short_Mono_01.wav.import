@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Voice_Male_V1_Hit_Short_Mono_01.wav-76ed6a66a56951fb917e8a7bbdea6db5.sample"
+type="AudioStreamWAV"
+uid="uid://dyq13s51584vo"
+path="res://.godot/imported/Voice_Male_V1_Hit_Short_Mono_01.wav-76ed6a66a56951fb917e8a7bbdea6db5.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Voices_Essentials_NOX_SOUND/Voice_Male/Voice_Male_Hit/Voice_Male_V1_Hit_Short_Mono_01.wav"
-dest_files=[ "res://.import/Voice_Male_V1_Hit_Short_Mono_01.wav-76ed6a66a56951fb917e8a7bbdea6db5.sample" ]
+dest_files=["res://.godot/imported/Voice_Male_V1_Hit_Short_Mono_01.wav-76ed6a66a56951fb917e8a7bbdea6db5.sample"]
 
 [params]
 

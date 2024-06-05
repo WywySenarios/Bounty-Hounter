@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Truck_Sliding_Door_Opening_Mono_02.wav-3f058762f2ce083327a692304b508976.sample"
+type="AudioStreamWAV"
+uid="uid://dw5ojump5tnxm"
+path="res://.godot/imported/Vehicle_Truck_Sliding_Door_Opening_Mono_02.wav-3f058762f2ce083327a692304b508976.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Truck/Vehicle_Truck_Sliding_Door_Opening_Mono_02.wav"
-dest_files=[ "res://.import/Vehicle_Truck_Sliding_Door_Opening_Mono_02.wav-3f058762f2ce083327a692304b508976.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Truck_Sliding_Door_Opening_Mono_02.wav-3f058762f2ce083327a692304b508976.sample"]
 
 [params]
 

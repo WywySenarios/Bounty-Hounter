@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Cloth_Winter_Coat_Throw_Moderate_Stereo.wav-3f54296417bf1eda68b890daa508efaf.sample"
+type="AudioStreamWAV"
+uid="uid://bgdn1ob8r1v7r"
+path="res://.godot/imported/Cloth_Winter_Coat_Throw_Moderate_Stereo.wav-3f54296417bf1eda68b890daa508efaf.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Sample_A_Sound_Effect/Cloth_Winter_Coat_Throw_Moderate_Stereo.wav"
-dest_files=[ "res://.import/Cloth_Winter_Coat_Throw_Moderate_Stereo.wav-3f54296417bf1eda68b890daa508efaf.sample" ]
+dest_files=["res://.godot/imported/Cloth_Winter_Coat_Throw_Moderate_Stereo.wav-3f54296417bf1eda68b890daa508efaf.sample"]
 
 [params]
 

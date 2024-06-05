@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Arcane Symbol Activate 01.wav-931b4df5000cd748c71d2f62648c6d40.sample"
+type="AudioStreamWAV"
+uid="uid://d2nervjy3jum6"
+path="res://.godot/imported/Arcane Symbol Activate 01.wav-931b4df5000cd748c71d2f62648c6d40.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Arcane Activations Preview/AUDIO/Arcane Symbol Activate 01.wav"
-dest_files=[ "res://.import/Arcane Symbol Activate 01.wav-931b4df5000cd748c71d2f62648c6d40.sample" ]
+dest_files=["res://.godot/imported/Arcane Symbol Activate 01.wav-931b4df5000cd748c71d2f62648c6d40.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Car_Glove_Box_Interior_Mono_02.wav-799918f5a063f13f6cb6f512434c3258.sample"
+type="AudioStreamWAV"
+uid="uid://uq2koltn3mnq"
+path="res://.godot/imported/Vehicle_Car_Glove_Box_Interior_Mono_02.wav-799918f5a063f13f6cb6f512434c3258.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Glove_Box_Interior_Mono_02.wav"
-dest_files=[ "res://.import/Vehicle_Car_Glove_Box_Interior_Mono_02.wav-799918f5a063f13f6cb6f512434c3258.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Car_Glove_Box_Interior_Mono_02.wav-799918f5a063f13f6cb6f512434c3258.sample"]
 
 [params]
 

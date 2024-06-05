@@ -16,4 +16,5 @@ export_presets.cfg
 data_*/
 
 # custom ones by the cringe mole ster david simon
-*.sln
+
+.sln

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_Sand_Run_14.wav-cc276c2a265c997e741f1fa436fbf827.sample"
+type="AudioStreamWAV"
+uid="uid://dkwxouhy0ny6y"
+path="res://.godot/imported/Footsteps_Sand_Run_14.wav-cc276c2a265c997e741f1fa436fbf827.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_14.wav"
-dest_files=[ "res://.import/Footsteps_Sand_Run_14.wav-cc276c2a265c997e741f1fa436fbf827.sample" ]
+dest_files=["res://.godot/imported/Footsteps_Sand_Run_14.wav-cc276c2a265c997e741f1fa436fbf827.sample"]
 
 [params]
 

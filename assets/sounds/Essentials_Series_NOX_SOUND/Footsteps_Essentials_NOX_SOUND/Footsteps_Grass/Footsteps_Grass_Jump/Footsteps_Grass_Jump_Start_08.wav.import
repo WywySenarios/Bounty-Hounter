@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_Grass_Jump_Start_08.wav-99e1907a52f8e12a23692f5937394779.sample"
+type="AudioStreamWAV"
+uid="uid://ck6jcd61e7cki"
+path="res://.godot/imported/Footsteps_Grass_Jump_Start_08.wav-99e1907a52f8e12a23692f5937394779.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Start_08.wav"
-dest_files=[ "res://.import/Footsteps_Grass_Jump_Start_08.wav-99e1907a52f8e12a23692f5937394779.sample" ]
+dest_files=["res://.godot/imported/Footsteps_Grass_Jump_Start_08.wav-99e1907a52f8e12a23692f5937394779.sample"]
 
 [params]
 

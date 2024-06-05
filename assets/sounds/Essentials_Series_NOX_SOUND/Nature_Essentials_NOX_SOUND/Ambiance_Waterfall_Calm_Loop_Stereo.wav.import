@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Ambiance_Waterfall_Calm_Loop_Stereo.wav-50a436f532efbfbffe6cbb88e74d60f2.sample"
+type="AudioStreamWAV"
+uid="uid://cvt8cl44yhhuk"
+path="res://.godot/imported/Ambiance_Waterfall_Calm_Loop_Stereo.wav-50a436f532efbfbffe6cbb88e74d60f2.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Nature_Essentials_NOX_SOUND/Ambiance_Waterfall_Calm_Loop_Stereo.wav"
-dest_files=[ "res://.import/Ambiance_Waterfall_Calm_Loop_Stereo.wav-50a436f532efbfbffe6cbb88e74d60f2.sample" ]
+dest_files=["res://.godot/imported/Ambiance_Waterfall_Calm_Loop_Stereo.wav-50a436f532efbfbffe6cbb88e74d60f2.sample"]
 
 [params]
 

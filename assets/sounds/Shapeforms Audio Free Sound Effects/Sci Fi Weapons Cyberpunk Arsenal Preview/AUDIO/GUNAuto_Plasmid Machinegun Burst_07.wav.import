@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/GUNAuto_Plasmid Machinegun Burst_07.wav-90b450cb2f44b11e1d376254d19eb59e.sample"
+type="AudioStreamWAV"
+uid="uid://fay5djvvpyrf"
+path="res://.godot/imported/GUNAuto_Plasmid Machinegun Burst_07.wav-90b450cb2f44b11e1d376254d19eb59e.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/GUNAuto_Plasmid Machinegun Burst_07.wav"
-dest_files=[ "res://.import/GUNAuto_Plasmid Machinegun Burst_07.wav-90b450cb2f44b11e1d376254d19eb59e.sample" ]
+dest_files=["res://.godot/imported/GUNAuto_Plasmid Machinegun Burst_07.wav-90b450cb2f44b11e1d376254d19eb59e.sample"]
 
 [params]
 

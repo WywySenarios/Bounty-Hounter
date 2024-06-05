@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/GUNAuto_Assault Rifle A Fire_01.wav-1a36d94793b420dd44e0989f16a2b91e.sample"
+type="AudioStreamWAV"
+uid="uid://brpr1ppjlxfc2"
+path="res://.godot/imported/GUNAuto_Assault Rifle A Fire_01.wav-1a36d94793b420dd44e0989f16a2b91e.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/GUNAuto_Assault Rifle A Fire_01.wav"
-dest_files=[ "res://.import/GUNAuto_Assault Rifle A Fire_01.wav-1a36d94793b420dd44e0989f16a2b91e.sample" ]
+dest_files=["res://.godot/imported/GUNAuto_Assault Rifle A Fire_01.wav-1a36d94793b420dd44e0989f16a2b91e.sample"]
 
 [params]
 

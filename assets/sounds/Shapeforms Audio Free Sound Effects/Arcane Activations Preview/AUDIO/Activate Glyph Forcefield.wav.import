@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Activate Glyph Forcefield.wav-ad78c442e0aef7025d4b653f15ace9b3.sample"
+type="AudioStreamWAV"
+uid="uid://bw30g8veucbh0"
+path="res://.godot/imported/Activate Glyph Forcefield.wav-ad78c442e0aef7025d4b653f15ace9b3.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Arcane Activations Preview/AUDIO/Activate Glyph Forcefield.wav"
-dest_files=[ "res://.import/Activate Glyph Forcefield.wav-ad78c442e0aef7025d4b653f15ace9b3.sample" ]
+dest_files=["res://.godot/imported/Activate Glyph Forcefield.wav-ad78c442e0aef7025d4b653f15ace9b3.sample"]
 
 [params]
 

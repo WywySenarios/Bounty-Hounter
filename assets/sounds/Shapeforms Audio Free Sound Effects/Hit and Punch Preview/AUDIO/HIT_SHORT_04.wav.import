@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/HIT_SHORT_04.wav-4133cf0ab725cabeabbfb293890af7ee.sample"
+type="AudioStreamWAV"
+uid="uid://b2n617ssuphws"
+path="res://.godot/imported/HIT_SHORT_04.wav-4133cf0ab725cabeabbfb293890af7ee.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Hit and Punch Preview/AUDIO/HIT_SHORT_04.wav"
-dest_files=[ "res://.import/HIT_SHORT_04.wav-4133cf0ab725cabeabbfb293890af7ee.sample" ]
+dest_files=["res://.godot/imported/HIT_SHORT_04.wav-4133cf0ab725cabeabbfb293890af7ee.sample"]
 
 [params]
 

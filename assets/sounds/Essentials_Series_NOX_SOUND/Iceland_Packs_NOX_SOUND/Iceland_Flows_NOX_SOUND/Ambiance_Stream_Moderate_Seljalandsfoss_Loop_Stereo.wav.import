@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Ambiance_Stream_Moderate_Seljalandsfoss_Loop_Stereo.wav-39d6cd7be40f8f293ea30f36f33addc3.sample"
+type="AudioStreamWAV"
+uid="uid://djibjtaale7xm"
+path="res://.godot/imported/Ambiance_Stream_Moderate_Seljalandsfoss_Loop_Stereo.wav-39d6cd7be40f8f293ea30f36f33addc3.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Iceland_Packs_NOX_SOUND/Iceland_Flows_NOX_SOUND/Ambiance_Stream_Moderate_Seljalandsfoss_Loop_Stereo.wav"
-dest_files=[ "res://.import/Ambiance_Stream_Moderate_Seljalandsfoss_Loop_Stereo.wav-39d6cd7be40f8f293ea30f36f33addc3.sample" ]
+dest_files=["res://.godot/imported/Ambiance_Stream_Moderate_Seljalandsfoss_Loop_Stereo.wav-39d6cd7be40f8f293ea30f36f33addc3.sample"]
 
 [params]
 

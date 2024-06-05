@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/SCIMisc_Arm Weapon Heavy_01.wav-cfaef0ca5ad5062630af9886e2b4737c.sample"
+type="AudioStreamWAV"
+uid="uid://cclvsdesmmv2e"
+path="res://.godot/imported/SCIMisc_Arm Weapon Heavy_01.wav-cfaef0ca5ad5062630af9886e2b4737c.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/SCIMisc_Arm Weapon Heavy_01.wav"
-dest_files=[ "res://.import/SCIMisc_Arm Weapon Heavy_01.wav-cfaef0ca5ad5062630af9886e2b4737c.sample" ]
+dest_files=["res://.godot/imported/SCIMisc_Arm Weapon Heavy_01.wav-cfaef0ca5ad5062630af9886e2b4737c.sample"]
 
 [params]
 

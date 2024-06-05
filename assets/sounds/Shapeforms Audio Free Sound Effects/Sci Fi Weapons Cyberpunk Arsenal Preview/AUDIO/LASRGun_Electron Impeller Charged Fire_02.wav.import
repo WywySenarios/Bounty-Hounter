@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/LASRGun_Electron Impeller Charged Fire_02.wav-43d01ba9c95b033f96fb68613b79e756.sample"
+type="AudioStreamWAV"
+uid="uid://chfmuobyaiyvp"
+path="res://.godot/imported/LASRGun_Electron Impeller Charged Fire_02.wav-43d01ba9c95b033f96fb68613b79e756.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/LASRGun_Electron Impeller Charged Fire_02.wav"
-dest_files=[ "res://.import/LASRGun_Electron Impeller Charged Fire_02.wav-43d01ba9c95b033f96fb68613b79e756.sample" ]
+dest_files=["res://.godot/imported/LASRGun_Electron Impeller Charged Fire_02.wav-43d01ba9c95b033f96fb68613b79e756.sample"]
 
 [params]
 

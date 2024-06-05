@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/EXPLDsgn_Explosion Rumble Distorted_01.wav-064b45ff7e02ace4e54c8e76523c1eee.sample"
+type="AudioStreamWAV"
+uid="uid://cbfpfao2ddm4v"
+path="res://.godot/imported/EXPLDsgn_Explosion Rumble Distorted_01.wav-064b45ff7e02ace4e54c8e76523c1eee.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/EXPLDsgn_Explosion Rumble Distorted_01.wav"
-dest_files=[ "res://.import/EXPLDsgn_Explosion Rumble Distorted_01.wav-064b45ff7e02ace4e54c8e76523c1eee.sample" ]
+dest_files=["res://.godot/imported/EXPLDsgn_Explosion Rumble Distorted_01.wav-064b45ff7e02ace4e54c8e76523c1eee.sample"]
 
 [params]
 

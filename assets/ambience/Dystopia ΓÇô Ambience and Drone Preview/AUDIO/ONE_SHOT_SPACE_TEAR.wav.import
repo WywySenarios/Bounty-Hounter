@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/ONE_SHOT_SPACE_TEAR.wav-85b98ecf3b497028fc489540404bc766.sample"
+type="AudioStreamWAV"
+uid="uid://da2pbp3iuvpay"
+path="res://.godot/imported/ONE_SHOT_SPACE_TEAR.wav-85b98ecf3b497028fc489540404bc766.sample"
 
 [deps]
 
 source_file="res://assets/ambience/Dystopia ΓÇô Ambience and Drone Preview/AUDIO/ONE_SHOT_SPACE_TEAR.wav"
-dest_files=[ "res://.import/ONE_SHOT_SPACE_TEAR.wav-85b98ecf3b497028fc489540404bc766.sample" ]
+dest_files=["res://.godot/imported/ONE_SHOT_SPACE_TEAR.wav-85b98ecf3b497028fc489540404bc766.sample"]
 
 [params]
 

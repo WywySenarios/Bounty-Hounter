@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/EXPLDsgn_Implode_15.wav-efb223a531aaa3458a54e72ad4d935ab.sample"
+type="AudioStreamWAV"
+uid="uid://cydf5hr5t03rp"
+path="res://.godot/imported/EXPLDsgn_Implode_15.wav-efb223a531aaa3458a54e72ad4d935ab.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/EXPLDsgn_Implode_15.wav"
-dest_files=[ "res://.import/EXPLDsgn_Implode_15.wav-efb223a531aaa3458a54e72ad4d935ab.sample" ]
+dest_files=["res://.godot/imported/EXPLDsgn_Implode_15.wav-efb223a531aaa3458a54e72ad4d935ab.sample"]
 
 [params]
 

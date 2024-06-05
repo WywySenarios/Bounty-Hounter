@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/LOOP_01.wav-c6e9743c0249da395651776838f26495.sample"
+type="AudioStreamWAV"
+uid="uid://f1xxphjhl8ta"
+path="res://.godot/imported/LOOP_01.wav-c6e9743c0249da395651776838f26495.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Cassette Preview/AUDIO/LOOP_01.wav"
-dest_files=[ "res://.import/LOOP_01.wav-c6e9743c0249da395651776838f26495.sample" ]
+dest_files=["res://.godot/imported/LOOP_01.wav-c6e9743c0249da395651776838f26495.sample"]
 
 [params]
 

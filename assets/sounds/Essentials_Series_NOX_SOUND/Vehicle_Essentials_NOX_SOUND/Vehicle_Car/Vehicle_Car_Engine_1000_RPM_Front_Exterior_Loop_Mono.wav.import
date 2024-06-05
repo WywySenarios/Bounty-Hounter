@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Car_Engine_1000_RPM_Front_Exterior_Loop_Mono.wav-87b9046dac80bb3824536d74638b10aa.sample"
+type="AudioStreamWAV"
+uid="uid://yf2hiiee3ehu"
+path="res://.godot/imported/Vehicle_Car_Engine_1000_RPM_Front_Exterior_Loop_Mono.wav-87b9046dac80bb3824536d74638b10aa.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Engine_1000_RPM_Front_Exterior_Loop_Mono.wav"
-dest_files=[ "res://.import/Vehicle_Car_Engine_1000_RPM_Front_Exterior_Loop_Mono.wav-87b9046dac80bb3824536d74638b10aa.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Car_Engine_1000_RPM_Front_Exterior_Loop_Mono.wav-87b9046dac80bb3824536d74638b10aa.sample"]
 
 [params]
 

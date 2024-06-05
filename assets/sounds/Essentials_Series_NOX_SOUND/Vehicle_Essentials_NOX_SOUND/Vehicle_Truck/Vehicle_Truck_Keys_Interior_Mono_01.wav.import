@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Truck_Keys_Interior_Mono_01.wav-0fa2bbe9a8328932c328aad310d5f4db.sample"
+type="AudioStreamWAV"
+uid="uid://wm5wbonm6s15"
+path="res://.godot/imported/Vehicle_Truck_Keys_Interior_Mono_01.wav-0fa2bbe9a8328932c328aad310d5f4db.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Truck/Vehicle_Truck_Keys_Interior_Mono_01.wav"
-dest_files=[ "res://.import/Vehicle_Truck_Keys_Interior_Mono_01.wav-0fa2bbe9a8328932c328aad310d5f4db.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Truck_Keys_Interior_Mono_01.wav-0fa2bbe9a8328932c328aad310d5f4db.sample"]
 
 [params]
 

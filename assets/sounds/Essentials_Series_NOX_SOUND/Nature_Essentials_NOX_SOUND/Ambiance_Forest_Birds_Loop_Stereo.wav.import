@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Ambiance_Forest_Birds_Loop_Stereo.wav-cc0bc43b71f6850fbc2ba595e65f66a6.sample"
+type="AudioStreamWAV"
+uid="uid://1ka55vpbwd3x"
+path="res://.godot/imported/Ambiance_Forest_Birds_Loop_Stereo.wav-cc0bc43b71f6850fbc2ba595e65f66a6.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Nature_Essentials_NOX_SOUND/Ambiance_Forest_Birds_Loop_Stereo.wav"
-dest_files=[ "res://.import/Ambiance_Forest_Birds_Loop_Stereo.wav-cc0bc43b71f6850fbc2ba595e65f66a6.sample" ]
+dest_files=["res://.godot/imported/Ambiance_Forest_Birds_Loop_Stereo.wav-cc0bc43b71f6850fbc2ba595e65f66a6.sample"]
 
 [params]
 

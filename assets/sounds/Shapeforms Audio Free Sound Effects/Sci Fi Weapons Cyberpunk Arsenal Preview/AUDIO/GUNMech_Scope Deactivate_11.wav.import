@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/GUNMech_Scope Deactivate_11.wav-e0b34f893922db974bcae2850792b3dc.sample"
+type="AudioStreamWAV"
+uid="uid://dhmfpvj8rku0l"
+path="res://.godot/imported/GUNMech_Scope Deactivate_11.wav-e0b34f893922db974bcae2850792b3dc.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/GUNMech_Scope Deactivate_11.wav"
-dest_files=[ "res://.import/GUNMech_Scope Deactivate_11.wav-e0b34f893922db974bcae2850792b3dc.sample" ]
+dest_files=["res://.godot/imported/GUNMech_Scope Deactivate_11.wav-e0b34f893922db974bcae2850792b3dc.sample"]
 
 [params]
 

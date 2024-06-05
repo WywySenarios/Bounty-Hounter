@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Old Terminal Popup Appear Low.wav-50333d649c7feff12fe7ea11c80d1308.sample"
+type="AudioStreamWAV"
+uid="uid://boc62xmaujer3"
+path="res://.godot/imported/Old Terminal Popup Appear Low.wav-50333d649c7feff12fe7ea11c80d1308.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Future UI Preview/Audio/Old Terminal Popup Appear Low.wav"
-dest_files=[ "res://.import/Old Terminal Popup Appear Low.wav-50333d649c7feff12fe7ea11c80d1308.sample" ]
+dest_files=["res://.godot/imported/Old Terminal Popup Appear Low.wav-50333d649c7feff12fe7ea11c80d1308.sample"]
 
 [params]
 

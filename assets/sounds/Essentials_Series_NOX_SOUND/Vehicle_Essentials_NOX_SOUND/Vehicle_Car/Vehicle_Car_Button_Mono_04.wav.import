@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Car_Button_Mono_04.wav-206692b77a2e287b4954252f8df4920b.sample"
+type="AudioStreamWAV"
+uid="uid://c4ihqcnhx3ju1"
+path="res://.godot/imported/Vehicle_Car_Button_Mono_04.wav-206692b77a2e287b4954252f8df4920b.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Button_Mono_04.wav"
-dest_files=[ "res://.import/Vehicle_Car_Button_Mono_04.wav-206692b77a2e287b4954252f8df4920b.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Car_Button_Mono_04.wav-206692b77a2e287b4954252f8df4920b.sample"]
 
 [params]
 

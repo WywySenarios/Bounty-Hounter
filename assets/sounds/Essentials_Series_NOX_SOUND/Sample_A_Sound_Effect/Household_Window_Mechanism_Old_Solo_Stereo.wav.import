@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Household_Window_Mechanism_Old_Solo_Stereo.wav-0025b1d3b89384577203d21e5acbf2d6.sample"
+type="AudioStreamWAV"
+uid="uid://daft4td8uiv2g"
+path="res://.godot/imported/Household_Window_Mechanism_Old_Solo_Stereo.wav-0025b1d3b89384577203d21e5acbf2d6.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Sample_A_Sound_Effect/Household_Window_Mechanism_Old_Solo_Stereo.wav"
-dest_files=[ "res://.import/Household_Window_Mechanism_Old_Solo_Stereo.wav-0025b1d3b89384577203d21e5acbf2d6.sample" ]
+dest_files=["res://.godot/imported/Household_Window_Mechanism_Old_Solo_Stereo.wav-0025b1d3b89384577203d21e5acbf2d6.sample"]
 
 [params]
 

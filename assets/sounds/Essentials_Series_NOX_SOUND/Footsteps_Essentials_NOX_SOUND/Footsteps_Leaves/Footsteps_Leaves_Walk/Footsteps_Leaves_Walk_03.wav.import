@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_Leaves_Walk_03.wav-cfaafe4e0d9dcab090cff2696d27d7ec.sample"
+type="AudioStreamWAV"
+uid="uid://dtbs3g06h0cmp"
+path="res://.godot/imported/Footsteps_Leaves_Walk_03.wav-cfaafe4e0d9dcab090cff2696d27d7ec.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Leaves/Footsteps_Leaves_Walk/Footsteps_Leaves_Walk_03.wav"
-dest_files=[ "res://.import/Footsteps_Leaves_Walk_03.wav-cfaafe4e0d9dcab090cff2696d27d7ec.sample" ]
+dest_files=["res://.godot/imported/Footsteps_Leaves_Walk_03.wav-cfaafe4e0d9dcab090cff2696d27d7ec.sample"]
 
 [params]
 

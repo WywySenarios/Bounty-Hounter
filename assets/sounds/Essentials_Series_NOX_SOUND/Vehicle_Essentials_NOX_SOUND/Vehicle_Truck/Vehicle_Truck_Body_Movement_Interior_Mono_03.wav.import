@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Truck_Body_Movement_Interior_Mono_03.wav-3c5fd8fd4de06bb0f1352d9622dab6e1.sample"
+type="AudioStreamWAV"
+uid="uid://bv2kd4cf8yfs2"
+path="res://.godot/imported/Vehicle_Truck_Body_Movement_Interior_Mono_03.wav-3c5fd8fd4de06bb0f1352d9622dab6e1.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Truck/Vehicle_Truck_Body_Movement_Interior_Mono_03.wav"
-dest_files=[ "res://.import/Vehicle_Truck_Body_Movement_Interior_Mono_03.wav-3c5fd8fd4de06bb0f1352d9622dab6e1.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Truck_Body_Movement_Interior_Mono_03.wav-3c5fd8fd4de06bb0f1352d9622dab6e1.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/GUNTech_Tormentor Shotgun Fire_05.wav-cf1ba864fc5800d81afccf6306b6457f.sample"
+type="AudioStreamWAV"
+uid="uid://ccdyt7omusf46"
+path="res://.godot/imported/GUNTech_Tormentor Shotgun Fire_05.wav-cf1ba864fc5800d81afccf6306b6457f.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/GUNTech_Tormentor Shotgun Fire_05.wav"
-dest_files=[ "res://.import/GUNTech_Tormentor Shotgun Fire_05.wav-cf1ba864fc5800d81afccf6306b6457f.sample" ]
+dest_files=["res://.godot/imported/GUNTech_Tormentor Shotgun Fire_05.wav-cf1ba864fc5800d81afccf6306b6457f.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Backpack_Small_Polyester_PickUp_Stereo.wav-96c5337052c630e17898bac5d7a9e788.sample"
+type="AudioStreamWAV"
+uid="uid://c35e0vyyfmlhn"
+path="res://.godot/imported/Backpack_Small_Polyester_PickUp_Stereo.wav-96c5337052c630e17898bac5d7a9e788.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Sample_A_Sound_Effect/Backpack_Small_Polyester_PickUp_Stereo.wav"
-dest_files=[ "res://.import/Backpack_Small_Polyester_PickUp_Stereo.wav-96c5337052c630e17898bac5d7a9e788.sample" ]
+dest_files=["res://.godot/imported/Backpack_Small_Polyester_PickUp_Stereo.wav-96c5337052c630e17898bac5d7a9e788.sample"]
 
 [params]
 

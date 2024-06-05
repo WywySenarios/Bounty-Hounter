@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Laptop_Brush Keyboard_12.wav-b3f34d8914b31b0637df02d08f4e229f.sample"
+type="AudioStreamWAV"
+uid="uid://bge3lggo7b3hp"
+path="res://.godot/imported/Laptop_Brush Keyboard_12.wav-b3f34d8914b31b0637df02d08f4e229f.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Type Preview/Laptop/Laptop_Brush Keyboard_12.wav"
-dest_files=[ "res://.import/Laptop_Brush Keyboard_12.wav-b3f34d8914b31b0637df02d08f4e229f.sample" ]
+dest_files=["res://.godot/imported/Laptop_Brush Keyboard_12.wav-b3f34d8914b31b0637df02d08f4e229f.sample"]
 
 [params]
 

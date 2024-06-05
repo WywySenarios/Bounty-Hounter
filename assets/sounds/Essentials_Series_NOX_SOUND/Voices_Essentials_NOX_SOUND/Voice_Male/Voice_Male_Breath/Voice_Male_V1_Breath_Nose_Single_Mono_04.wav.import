@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Voice_Male_V1_Breath_Nose_Single_Mono_04.wav-d901e60ebf51d15792bec8e3b8668c49.sample"
+type="AudioStreamWAV"
+uid="uid://c8e4o6sg1y8sd"
+path="res://.godot/imported/Voice_Male_V1_Breath_Nose_Single_Mono_04.wav-d901e60ebf51d15792bec8e3b8668c49.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Voices_Essentials_NOX_SOUND/Voice_Male/Voice_Male_Breath/Voice_Male_V1_Breath_Nose_Single_Mono_04.wav"
-dest_files=[ "res://.import/Voice_Male_V1_Breath_Nose_Single_Mono_04.wav-d901e60ebf51d15792bec8e3b8668c49.sample" ]
+dest_files=["res://.godot/imported/Voice_Male_V1_Breath_Nose_Single_Mono_04.wav-d901e60ebf51d15792bec8e3b8668c49.sample"]
 
 [params]
 

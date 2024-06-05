@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Truck_Drive_Exterior_Loop_Stereo_01.wav-9c3c84a85b3371d0e1d9be5871829405.sample"
+type="AudioStreamWAV"
+uid="uid://j1qe3rv0j547"
+path="res://.godot/imported/Vehicle_Truck_Drive_Exterior_Loop_Stereo_01.wav-9c3c84a85b3371d0e1d9be5871829405.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Truck/Vehicle_Truck_Drive_Exterior_Loop_Stereo_01.wav"
-dest_files=[ "res://.import/Vehicle_Truck_Drive_Exterior_Loop_Stereo_01.wav-9c3c84a85b3371d0e1d9be5871829405.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Truck_Drive_Exterior_Loop_Stereo_01.wav-9c3c84a85b3371d0e1d9be5871829405.sample"]
 
 [params]
 

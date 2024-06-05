@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/FUI Holographic Interaction Radiate.wav-03a88c9696155a152c48d6326394f785.sample"
+type="AudioStreamWAV"
+uid="uid://t382igqu4q65"
+path="res://.godot/imported/FUI Holographic Interaction Radiate.wav-03a88c9696155a152c48d6326394f785.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Future UI Preview/Audio/FUI Holographic Interaction Radiate.wav"
-dest_files=[ "res://.import/FUI Holographic Interaction Radiate.wav-03a88c9696155a152c48d6326394f785.sample" ]
+dest_files=["res://.godot/imported/FUI Holographic Interaction Radiate.wav-03a88c9696155a152c48d6326394f785.sample"]
 
 [params]
 

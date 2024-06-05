@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/AMBIENCE_TUNDRA_LOOP_01.wav-5f343b63df270824e82403e80fca097d.sample"
+type="AudioStreamWAV"
+uid="uid://eyd0vf5o520g"
+path="res://.godot/imported/AMBIENCE_TUNDRA_LOOP_01.wav-5f343b63df270824e82403e80fca097d.sample"
 
 [deps]
 
 source_file="res://assets/ambience/Dystopia ΓÇô Ambience and Drone Preview/AUDIO/AMBIENCE_TUNDRA_LOOP_01.wav"
-dest_files=[ "res://.import/AMBIENCE_TUNDRA_LOOP_01.wav-5f343b63df270824e82403e80fca097d.sample" ]
+dest_files=["res://.godot/imported/AMBIENCE_TUNDRA_LOOP_01.wav-5f343b63df270824e82403e80fca097d.sample"]
 
 [params]
 

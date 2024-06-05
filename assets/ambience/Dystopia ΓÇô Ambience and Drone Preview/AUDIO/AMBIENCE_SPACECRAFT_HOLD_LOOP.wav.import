@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/AMBIENCE_SPACECRAFT_HOLD_LOOP.wav-44bddee87abd6e4dac19751bb67d8466.sample"
+type="AudioStreamWAV"
+uid="uid://bia01qkr4hvmd"
+path="res://.godot/imported/AMBIENCE_SPACECRAFT_HOLD_LOOP.wav-44bddee87abd6e4dac19751bb67d8466.sample"
 
 [deps]
 
 source_file="res://assets/ambience/Dystopia ΓÇô Ambience and Drone Preview/AUDIO/AMBIENCE_SPACECRAFT_HOLD_LOOP.wav"
-dest_files=[ "res://.import/AMBIENCE_SPACECRAFT_HOLD_LOOP.wav-44bddee87abd6e4dac19751bb67d8466.sample" ]
+dest_files=["res://.godot/imported/AMBIENCE_SPACECRAFT_HOLD_LOOP.wav-44bddee87abd6e4dac19751bb67d8466.sample"]
 
 [params]
 

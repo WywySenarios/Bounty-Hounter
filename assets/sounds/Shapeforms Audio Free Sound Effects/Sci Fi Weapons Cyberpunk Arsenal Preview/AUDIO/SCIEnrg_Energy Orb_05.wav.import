@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/SCIEnrg_Energy Orb_05.wav-b10d9c3137d3c2dbaf7a4ee741a80877.sample"
+type="AudioStreamWAV"
+uid="uid://ftnf5dd61tjt"
+path="res://.godot/imported/SCIEnrg_Energy Orb_05.wav-b10d9c3137d3c2dbaf7a4ee741a80877.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/SCIEnrg_Energy Orb_05.wav"
-dest_files=[ "res://.import/SCIEnrg_Energy Orb_05.wav-b10d9c3137d3c2dbaf7a4ee741a80877.sample" ]
+dest_files=["res://.godot/imported/SCIEnrg_Energy Orb_05.wav-b10d9c3137d3c2dbaf7a4ee741a80877.sample"]
 
 [params]
 

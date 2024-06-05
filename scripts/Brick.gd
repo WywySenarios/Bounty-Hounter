@@ -1,11 +1,11 @@
-extends KinematicBody2D
+extends CharacterBody2D
 
-var velocity = Vector2.ZERO
 var direction = Vector2.ZERO
-export (int) var maxSpeed = 2000
-export (Vector2) var startDirection = Vector2.UP
+@export var maxSpeed = 2000
+@export var startDirection = Vector2.UP
 
 func _ready():
+	#velocity = Vector2.ZERO
 	direction = startDirection
 	
 func _process(delta):
@@ -14,5 +14,8 @@ func _process(delta):
 	
 	velocity.y = (direction * maxSpeed).y * delta
 	
-	velocity = move_and_slide(Vector2.ZERO, velocity) 
-	$AnimatedSprite.flip_v = true if direction.y > 0 else false
+	set_velocity(Vector2.ZERO)
+	set_up_direction(velocity)
+	move_and_slide()
+	velocity = velocity 
+	$AnimatedSprite2D.flip_v = true if direction.y > 0 else false

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Truck_Door_Closing_Exterior_Mono_06.wav-cbc1303259583f2df8690fdffb1460f9.sample"
+type="AudioStreamWAV"
+uid="uid://c2dt7xqptsapa"
+path="res://.godot/imported/Vehicle_Truck_Door_Closing_Exterior_Mono_06.wav-cbc1303259583f2df8690fdffb1460f9.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Truck/Vehicle_Truck_Door_Closing_Exterior_Mono_06.wav"
-dest_files=[ "res://.import/Vehicle_Truck_Door_Closing_Exterior_Mono_06.wav-cbc1303259583f2df8690fdffb1460f9.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Truck_Door_Closing_Exterior_Mono_06.wav-cbc1303259583f2df8690fdffb1460f9.sample"]
 
 [params]
 

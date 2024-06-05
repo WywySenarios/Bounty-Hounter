@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/LOAD_CASSETTE_08.wav-d96ec4e5547ca6f47d90501708ed00e6.sample"
+type="AudioStreamWAV"
+uid="uid://dopl4d66ad2ux"
+path="res://.godot/imported/LOAD_CASSETTE_08.wav-d96ec4e5547ca6f47d90501708ed00e6.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Cassette Preview/AUDIO/LOAD_CASSETTE_08.wav"
-dest_files=[ "res://.import/LOAD_CASSETTE_08.wav-d96ec4e5547ca6f47d90501708ed00e6.sample" ]
+dest_files=["res://.godot/imported/LOAD_CASSETTE_08.wav-d96ec4e5547ca6f47d90501708ed00e6.sample"]
 
 [params]
 

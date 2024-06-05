@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_MetalV1_Run_06.wav-0a4cbd376c330aad4d45cfd3afe2b674.sample"
+type="AudioStreamWAV"
+uid="uid://721gbienejtv"
+path="res://.godot/imported/Footsteps_MetalV1_Run_06.wav-0a4cbd376c330aad4d45cfd3afe2b674.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_06.wav"
-dest_files=[ "res://.import/Footsteps_MetalV1_Run_06.wav-0a4cbd376c330aad4d45cfd3afe2b674.sample" ]
+dest_files=["res://.godot/imported/Footsteps_MetalV1_Run_06.wav-0a4cbd376c330aad4d45cfd3afe2b674.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Car_Horn_Exterior_Mono.wav-806305b3ac3de6b9f9285172dee4a882.sample"
+type="AudioStreamWAV"
+uid="uid://b7dggjiwq0uvi"
+path="res://.godot/imported/Vehicle_Car_Horn_Exterior_Mono.wav-806305b3ac3de6b9f9285172dee4a882.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Horn_Exterior_Mono.wav"
-dest_files=[ "res://.import/Vehicle_Car_Horn_Exterior_Mono.wav-806305b3ac3de6b9f9285172dee4a882.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Car_Horn_Exterior_Mono.wav-806305b3ac3de6b9f9285172dee4a882.sample"]
 
 [params]
 

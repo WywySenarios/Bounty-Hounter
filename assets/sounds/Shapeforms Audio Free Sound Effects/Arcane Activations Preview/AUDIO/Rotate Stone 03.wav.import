@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Rotate Stone 03.wav-41c66b805a848b29f30dcc2c1c416df8.sample"
+type="AudioStreamWAV"
+uid="uid://q5klmj65aq6b"
+path="res://.godot/imported/Rotate Stone 03.wav-41c66b805a848b29f30dcc2c1c416df8.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Arcane Activations Preview/AUDIO/Rotate Stone 03.wav"
-dest_files=[ "res://.import/Rotate Stone 03.wav-41c66b805a848b29f30dcc2c1c416df8.sample" ]
+dest_files=["res://.godot/imported/Rotate Stone 03.wav-41c66b805a848b29f30dcc2c1c416df8.sample"]
 
 [params]
 

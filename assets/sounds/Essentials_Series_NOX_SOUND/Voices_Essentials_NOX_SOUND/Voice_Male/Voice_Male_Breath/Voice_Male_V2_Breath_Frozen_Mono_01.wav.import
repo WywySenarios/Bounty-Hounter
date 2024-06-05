@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Voice_Male_V2_Breath_Frozen_Mono_01.wav-9f8b42af9711df73cda8220c0b16d3b2.sample"
+type="AudioStreamWAV"
+uid="uid://bmqp7ukdj50t3"
+path="res://.godot/imported/Voice_Male_V2_Breath_Frozen_Mono_01.wav-9f8b42af9711df73cda8220c0b16d3b2.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Voices_Essentials_NOX_SOUND/Voice_Male/Voice_Male_Breath/Voice_Male_V2_Breath_Frozen_Mono_01.wav"
-dest_files=[ "res://.import/Voice_Male_V2_Breath_Frozen_Mono_01.wav-9f8b42af9711df73cda8220c0b16d3b2.sample" ]
+dest_files=["res://.godot/imported/Voice_Male_V2_Breath_Frozen_Mono_01.wav-9f8b42af9711df73cda8220c0b16d3b2.sample"]
 
 [params]
 

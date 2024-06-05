@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Coins in Sack Dropped on Soft Surface.wav-7cc2f8c748a41edd2ecac02464b0ab35.sample"
+type="AudioStreamWAV"
+uid="uid://c2qi73cy8h7px"
+path="res://.godot/imported/Coins in Sack Dropped on Soft Surface.wav-7cc2f8c748a41edd2ecac02464b0ab35.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/The Mint ΓÇô Coins and Money Preview/AUDIO/Coins in Sack Dropped on Soft Surface.wav"
-dest_files=[ "res://.import/Coins in Sack Dropped on Soft Surface.wav-7cc2f8c748a41edd2ecac02464b0ab35.sample" ]
+dest_files=["res://.godot/imported/Coins in Sack Dropped on Soft Surface.wav-7cc2f8c748a41edd2ecac02464b0ab35.sample"]
 
 [params]
 

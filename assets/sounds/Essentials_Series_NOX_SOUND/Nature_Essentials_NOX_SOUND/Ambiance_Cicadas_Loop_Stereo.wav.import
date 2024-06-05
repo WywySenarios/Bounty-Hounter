@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Ambiance_Cicadas_Loop_Stereo.wav-0353ca040260ac37da8b6bb04f09aa97.sample"
+type="AudioStreamWAV"
+uid="uid://dqu8vmwk2mbdc"
+path="res://.godot/imported/Ambiance_Cicadas_Loop_Stereo.wav-0353ca040260ac37da8b6bb04f09aa97.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Nature_Essentials_NOX_SOUND/Ambiance_Cicadas_Loop_Stereo.wav"
-dest_files=[ "res://.import/Ambiance_Cicadas_Loop_Stereo.wav-0353ca040260ac37da8b6bb04f09aa97.sample" ]
+dest_files=["res://.godot/imported/Ambiance_Cicadas_Loop_Stereo.wav-0353ca040260ac37da8b6bb04f09aa97.sample"]
 
 [params]
 

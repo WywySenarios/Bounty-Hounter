@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Ambiance_Sea_Strong_Reynisdrangar_Loop_Stereo.wav-1c164465891d402a7582a3af577835c2.sample"
+type="AudioStreamWAV"
+uid="uid://m1u3rytlncla"
+path="res://.godot/imported/Ambiance_Sea_Strong_Reynisdrangar_Loop_Stereo.wav-1c164465891d402a7582a3af577835c2.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Iceland_Packs_NOX_SOUND/Iceland_Flows_NOX_SOUND/Ambiance_Sea_Strong_Reynisdrangar_Loop_Stereo.wav"
-dest_files=[ "res://.import/Ambiance_Sea_Strong_Reynisdrangar_Loop_Stereo.wav-1c164465891d402a7582a3af577835c2.sample" ]
+dest_files=["res://.godot/imported/Ambiance_Sea_Strong_Reynisdrangar_Loop_Stereo.wav-1c164465891d402a7582a3af577835c2.sample"]
 
 [params]
 

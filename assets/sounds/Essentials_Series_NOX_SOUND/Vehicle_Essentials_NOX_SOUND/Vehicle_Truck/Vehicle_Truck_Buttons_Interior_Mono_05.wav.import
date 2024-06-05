@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Truck_Buttons_Interior_Mono_05.wav-22d479734cfa544a9c9720d07e0bc73e.sample"
+type="AudioStreamWAV"
+uid="uid://pcj4j7wgrob"
+path="res://.godot/imported/Vehicle_Truck_Buttons_Interior_Mono_05.wav-22d479734cfa544a9c9720d07e0bc73e.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Truck/Vehicle_Truck_Buttons_Interior_Mono_05.wav"
-dest_files=[ "res://.import/Vehicle_Truck_Buttons_Interior_Mono_05.wav-22d479734cfa544a9c9720d07e0bc73e.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Truck_Buttons_Interior_Mono_05.wav-22d479734cfa544a9c9720d07e0bc73e.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/MECHClik_Mine Deploy_02.wav-cd59536d8c520727e04356edcd2d0e6d.sample"
+type="AudioStreamWAV"
+uid="uid://dfspj0202ox18"
+path="res://.godot/imported/MECHClik_Mine Deploy_02.wav-cd59536d8c520727e04356edcd2d0e6d.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/MECHClik_Mine Deploy_02.wav"
-dest_files=[ "res://.import/MECHClik_Mine Deploy_02.wav-cd59536d8c520727e04356edcd2d0e6d.sample" ]
+dest_files=["res://.godot/imported/MECHClik_Mine Deploy_02.wav-cd59536d8c520727e04356edcd2d0e6d.sample"]
 
 [params]
 

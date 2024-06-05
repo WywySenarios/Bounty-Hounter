@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/BUTTON_12.wav-2b5ff5a17a1abacf6fff527251b4d565.sample"
+type="AudioStreamWAV"
+uid="uid://dv6yo0oo4bhty"
+path="res://.godot/imported/BUTTON_12.wav-2b5ff5a17a1abacf6fff527251b4d565.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Cassette Preview/AUDIO/BUTTON_12.wav"
-dest_files=[ "res://.import/BUTTON_12.wav-2b5ff5a17a1abacf6fff527251b4d565.sample" ]
+dest_files=["res://.godot/imported/BUTTON_12.wav-2b5ff5a17a1abacf6fff527251b4d565.sample"]
 
 [params]
 

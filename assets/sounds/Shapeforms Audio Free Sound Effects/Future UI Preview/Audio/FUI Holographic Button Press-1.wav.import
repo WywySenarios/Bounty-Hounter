@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/FUI Holographic Button Press-1.wav-11eb2ffa6f96dca791515f00a3b61da7.sample"
+type="AudioStreamWAV"
+uid="uid://pdvnu46byaql"
+path="res://.godot/imported/FUI Holographic Button Press-1.wav-11eb2ffa6f96dca791515f00a3b61da7.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Future UI Preview/Audio/FUI Holographic Button Press-1.wav"
-dest_files=[ "res://.import/FUI Holographic Button Press-1.wav-11eb2ffa6f96dca791515f00a3b61da7.sample" ]
+dest_files=["res://.godot/imported/FUI Holographic Button Press-1.wav-11eb2ffa6f96dca791515f00a3b61da7.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_Walk_Grass_Mono_39.wav-b0f91a6979399ded9553d2462320c18c.sample"
+type="AudioStreamWAV"
+uid="uid://cvsv5g2vnftsf"
+path="res://.godot/imported/Footsteps_Walk_Grass_Mono_39.wav-b0f91a6979399ded9553d2462320c18c.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_39.wav"
-dest_files=[ "res://.import/Footsteps_Walk_Grass_Mono_39.wav-b0f91a6979399ded9553d2462320c18c.sample" ]
+dest_files=["res://.godot/imported/Footsteps_Walk_Grass_Mono_39.wav-b0f91a6979399ded9553d2462320c18c.sample"]
 
 [params]
 

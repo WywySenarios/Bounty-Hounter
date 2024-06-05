@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/SLOW DOWN SPEED UP_05.wav-194891238768c39606b3355f90651cb6.sample"
+type="AudioStreamWAV"
+uid="uid://do1nqfubt888g"
+path="res://.godot/imported/SLOW DOWN SPEED UP_05.wav-194891238768c39606b3355f90651cb6.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Cassette Preview/AUDIO/SLOW DOWN SPEED UP_05.wav"
-dest_files=[ "res://.import/SLOW DOWN SPEED UP_05.wav-194891238768c39606b3355f90651cb6.sample" ]
+dest_files=["res://.godot/imported/SLOW DOWN SPEED UP_05.wav-194891238768c39606b3355f90651cb6.sample"]
 
 [params]
 

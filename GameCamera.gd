@@ -2,8 +2,8 @@ extends Camera2D
 
 var targetPosition = Vector2.ZERO
 
-export(Color, RGB) var backgroundColor
-export(OpenSimplexNoise) var shakeNoise
+@export var backgroundColor # (Color, RGB)
+@export var shakeNoise: FastNoiseLite
 
 var xNoiseSampleVector = Vector2.RIGHT
 var yNoiseSampleVector = Vector2.DOWN
@@ -16,7 +16,7 @@ var currentShakePercentage =  0
 var shakeDecay = 3
 
 func _ready():
-	VisualServer.set_default_clear_color(backgroundColor)
+	RenderingServer.set_default_clear_color(backgroundColor)
 	
 
 func _process(delta):

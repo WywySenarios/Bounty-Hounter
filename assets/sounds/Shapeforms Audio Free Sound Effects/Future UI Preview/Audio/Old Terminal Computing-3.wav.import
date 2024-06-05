@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Old Terminal Computing-3.wav-349df9626a4e6466b933ac455d465118.sample"
+type="AudioStreamWAV"
+uid="uid://bj8ymap0hyq63"
+path="res://.godot/imported/Old Terminal Computing-3.wav-349df9626a4e6466b933ac455d465118.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Future UI Preview/Audio/Old Terminal Computing-3.wav"
-dest_files=[ "res://.import/Old Terminal Computing-3.wav-349df9626a4e6466b933ac455d465118.sample" ]
+dest_files=["res://.godot/imported/Old Terminal Computing-3.wav-349df9626a4e6466b933ac455d465118.sample"]
 
 [params]
 

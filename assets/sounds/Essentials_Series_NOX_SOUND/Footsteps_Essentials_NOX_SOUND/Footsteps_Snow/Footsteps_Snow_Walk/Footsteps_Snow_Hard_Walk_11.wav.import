@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_Snow_Hard_Walk_11.wav-d559903cffb007cad3fcb1e8decf691f.sample"
+type="AudioStreamWAV"
+uid="uid://12e6xmcv1uv0"
+path="res://.godot/imported/Footsteps_Snow_Hard_Walk_11.wav-d559903cffb007cad3fcb1e8decf691f.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_11.wav"
-dest_files=[ "res://.import/Footsteps_Snow_Hard_Walk_11.wav-d559903cffb007cad3fcb1e8decf691f.sample" ]
+dest_files=["res://.godot/imported/Footsteps_Snow_Hard_Walk_11.wav-d559903cffb007cad3fcb1e8decf691f.sample"]
 
 [params]
 

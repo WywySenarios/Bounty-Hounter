@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/TAPE_NOISE_01.wav-8c78eaa6f501e43a84a8b989ee098ad7.sample"
+type="AudioStreamWAV"
+uid="uid://dyslnc3kfcb0s"
+path="res://.godot/imported/TAPE_NOISE_01.wav-8c78eaa6f501e43a84a8b989ee098ad7.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Cassette Preview/AUDIO/TAPE_NOISE_01.wav"
-dest_files=[ "res://.import/TAPE_NOISE_01.wav-8c78eaa6f501e43a84a8b989ee098ad7.sample" ]
+dest_files=["res://.godot/imported/TAPE_NOISE_01.wav-8c78eaa6f501e43a84a8b989ee098ad7.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_MetalV2_Jump_Start_03.wav-dda158231c35f126a05d84698f4672a9.sample"
+type="AudioStreamWAV"
+uid="uid://bo3ldggcwn6fr"
+path="res://.godot/imported/Footsteps_MetalV2_Jump_Start_03.wav-dda158231c35f126a05d84698f4672a9.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV2_Jump_Start_03.wav"
-dest_files=[ "res://.import/Footsteps_MetalV2_Jump_Start_03.wav-dda158231c35f126a05d84698f4672a9.sample" ]
+dest_files=["res://.godot/imported/Footsteps_MetalV2_Jump_Start_03.wav-dda158231c35f126a05d84698f4672a9.sample"]
 
 [params]
 

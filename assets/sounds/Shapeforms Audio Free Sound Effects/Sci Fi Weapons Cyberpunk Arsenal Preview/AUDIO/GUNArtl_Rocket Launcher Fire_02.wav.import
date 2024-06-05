@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/GUNArtl_Rocket Launcher Fire_02.wav-80e227301a641eb56aa069d73518d444.sample"
+type="AudioStreamWAV"
+uid="uid://43cn10l505bg"
+path="res://.godot/imported/GUNArtl_Rocket Launcher Fire_02.wav-80e227301a641eb56aa069d73518d444.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/GUNArtl_Rocket Launcher Fire_02.wav"
-dest_files=[ "res://.import/GUNArtl_Rocket Launcher Fire_02.wav-80e227301a641eb56aa069d73518d444.sample" ]
+dest_files=["res://.godot/imported/GUNArtl_Rocket Launcher Fire_02.wav-80e227301a641eb56aa069d73518d444.sample"]
 
 [params]
 

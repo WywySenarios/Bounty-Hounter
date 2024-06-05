@@ -13,7 +13,7 @@ func _ready():
 	register_player($PlayerRoot/Player)
 	coin_total_changed(get_tree().get_nodes_in_group("coin").size())
 
-	$TriggersAndTransitions/Flag.connect("player_won", self, "on_player_won")
+	$TriggersAndTransitions/Flag.connect("player_won", Callable(self, "on_player_won"))
 	
 func coin_collected():
 	collectedCoins += 1
@@ -25,10 +25,10 @@ func coin_total_changed(newTotal):
 
 func register_player(player):
 	currentPlayerNode = player
-	currentPlayerNode.connect("died", self, "on_player_died", [], CONNECT_DEFERRED)
+	currentPlayerNode.connect("died", Callable(self, "on_player_died").bind(), CONNECT_DEFERRED)
 
 func create_player():
-	var playerInstance = playerScene.instance()
+	var playerInstance = playerScene.instantiate()
 	$PlayerRoot.add_child(playerInstance)
 	playerInstance.global_position = spawnPosition
 	register_player(playerInstance)
@@ -38,7 +38,7 @@ func on_player_died():
 	
 	#good for simple delays that only need to happen once
 	var timer = get_tree().create_timer(1)
-	yield(timer, "timeout")
+	await timer.timeout
 	
 	create_player()
 

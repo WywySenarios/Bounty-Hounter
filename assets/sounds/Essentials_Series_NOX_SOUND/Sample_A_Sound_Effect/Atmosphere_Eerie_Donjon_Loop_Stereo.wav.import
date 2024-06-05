@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Atmosphere_Eerie_Donjon_Loop_Stereo.wav-4fc15fd993a8d24045b8c8252dde7998.sample"
+type="AudioStreamWAV"
+uid="uid://dp2qraxmb1ems"
+path="res://.godot/imported/Atmosphere_Eerie_Donjon_Loop_Stereo.wav-4fc15fd993a8d24045b8c8252dde7998.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Sample_A_Sound_Effect/Atmosphere_Eerie_Donjon_Loop_Stereo.wav"
-dest_files=[ "res://.import/Atmosphere_Eerie_Donjon_Loop_Stereo.wav-4fc15fd993a8d24045b8c8252dde7998.sample" ]
+dest_files=["res://.godot/imported/Atmosphere_Eerie_Donjon_Loop_Stereo.wav-4fc15fd993a8d24045b8c8252dde7998.sample"]
 
 [params]
 

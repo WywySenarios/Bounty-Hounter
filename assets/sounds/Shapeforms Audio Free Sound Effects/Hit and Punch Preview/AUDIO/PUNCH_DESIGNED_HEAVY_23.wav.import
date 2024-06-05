@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/PUNCH_DESIGNED_HEAVY_23.wav-46764e784a3e6babb30bb033242c4ffb.sample"
+type="AudioStreamWAV"
+uid="uid://cgy8srca2xaq8"
+path="res://.godot/imported/PUNCH_DESIGNED_HEAVY_23.wav-46764e784a3e6babb30bb033242c4ffb.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Hit and Punch Preview/AUDIO/PUNCH_DESIGNED_HEAVY_23.wav"
-dest_files=[ "res://.import/PUNCH_DESIGNED_HEAVY_23.wav-46764e784a3e6babb30bb033242c4ffb.sample" ]
+dest_files=["res://.godot/imported/PUNCH_DESIGNED_HEAVY_23.wav-46764e784a3e6babb30bb033242c4ffb.sample"]
 
 [params]
 

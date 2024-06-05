@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_Tile_Walk_01.wav-253c16e307b3bcc8cd4769d70af6b6d5.sample"
+type="AudioStreamWAV"
+uid="uid://i485r6osswpa"
+path="res://.godot/imported/Footsteps_Tile_Walk_01.wav-253c16e307b3bcc8cd4769d70af6b6d5.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Tile/Footsteps_Tile_Walk/Footsteps_Tile_Walk_01.wav"
-dest_files=[ "res://.import/Footsteps_Tile_Walk_01.wav-253c16e307b3bcc8cd4769d70af6b6d5.sample" ]
+dest_files=["res://.godot/imported/Footsteps_Tile_Walk_01.wav-253c16e307b3bcc8cd4769d70af6b6d5.sample"]
 
 [params]
 

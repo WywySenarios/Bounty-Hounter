@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Ambiance_River_Moderate_Loop_Stereo.wav-baaa7cb9e241f3a1c71553847f653af6.sample"
+type="AudioStreamWAV"
+uid="uid://cxm5ori77jk13"
+path="res://.godot/imported/Ambiance_River_Moderate_Loop_Stereo.wav-baaa7cb9e241f3a1c71553847f653af6.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Nature_Essentials_NOX_SOUND/Ambiance_River_Moderate_Loop_Stereo.wav"
-dest_files=[ "res://.import/Ambiance_River_Moderate_Loop_Stereo.wav-baaa7cb9e241f3a1c71553847f653af6.sample" ]
+dest_files=["res://.godot/imported/Ambiance_River_Moderate_Loop_Stereo.wav-baaa7cb9e241f3a1c71553847f653af6.sample"]
 
 [params]
 

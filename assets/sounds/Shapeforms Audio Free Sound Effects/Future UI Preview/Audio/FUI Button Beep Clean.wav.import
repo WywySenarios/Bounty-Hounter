@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/FUI Button Beep Clean.wav-470dbd45488f39eaafdaa7d26a607c1d.sample"
+type="AudioStreamWAV"
+uid="uid://cwl5vxw551hjm"
+path="res://.godot/imported/FUI Button Beep Clean.wav-470dbd45488f39eaafdaa7d26a607c1d.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Future UI Preview/Audio/FUI Button Beep Clean.wav"
-dest_files=[ "res://.import/FUI Button Beep Clean.wav-470dbd45488f39eaafdaa7d26a607c1d.sample" ]
+dest_files=["res://.godot/imported/FUI Button Beep Clean.wav-470dbd45488f39eaafdaa7d26a607c1d.sample"]
 
 [params]
 

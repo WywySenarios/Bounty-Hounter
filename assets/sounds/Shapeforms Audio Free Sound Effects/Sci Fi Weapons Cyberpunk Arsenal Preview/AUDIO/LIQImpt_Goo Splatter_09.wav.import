@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/LIQImpt_Goo Splatter_09.wav-82c8b6ab63a6db0b9b5bb9e0a8e284c0.sample"
+type="AudioStreamWAV"
+uid="uid://bfslvmxd8jqvt"
+path="res://.godot/imported/LIQImpt_Goo Splatter_09.wav-82c8b6ab63a6db0b9b5bb9e0a8e284c0.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/LIQImpt_Goo Splatter_09.wav"
-dest_files=[ "res://.import/LIQImpt_Goo Splatter_09.wav-82c8b6ab63a6db0b9b5bb9e0a8e284c0.sample" ]
+dest_files=["res://.godot/imported/LIQImpt_Goo Splatter_09.wav-82c8b6ab63a6db0b9b5bb9e0a8e284c0.sample"]
 
 [params]
 

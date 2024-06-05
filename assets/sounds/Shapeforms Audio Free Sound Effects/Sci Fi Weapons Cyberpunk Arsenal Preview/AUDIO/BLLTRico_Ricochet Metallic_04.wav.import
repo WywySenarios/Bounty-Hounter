@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/BLLTRico_Ricochet Metallic_04.wav-cb032a821496a06f90f33864261da471.sample"
+type="AudioStreamWAV"
+uid="uid://ck4mh4jnbpp5t"
+path="res://.godot/imported/BLLTRico_Ricochet Metallic_04.wav-cb032a821496a06f90f33864261da471.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/BLLTRico_Ricochet Metallic_04.wav"
-dest_files=[ "res://.import/BLLTRico_Ricochet Metallic_04.wav-cb032a821496a06f90f33864261da471.sample" ]
+dest_files=["res://.godot/imported/BLLTRico_Ricochet Metallic_04.wav-cb032a821496a06f90f33864261da471.sample"]
 
 [params]
 

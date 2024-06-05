@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Laptop_Spacebar_06.wav-d2d42210afd7bd0b930e00d65b8226f0.sample"
+type="AudioStreamWAV"
+uid="uid://whtep8k41g8n"
+path="res://.godot/imported/Laptop_Spacebar_06.wav-d2d42210afd7bd0b930e00d65b8226f0.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Type Preview/Laptop/Laptop_Spacebar_06.wav"
-dest_files=[ "res://.import/Laptop_Spacebar_06.wav-d2d42210afd7bd0b930e00d65b8226f0.sample" ]
+dest_files=["res://.godot/imported/Laptop_Spacebar_06.wav-d2d42210afd7bd0b930e00d65b8226f0.sample"]
 
 [params]
 

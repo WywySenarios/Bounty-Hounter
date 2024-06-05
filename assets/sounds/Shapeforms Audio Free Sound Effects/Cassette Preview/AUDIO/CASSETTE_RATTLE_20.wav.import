@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/CASSETTE_RATTLE_20.wav-c6b55bc49492189aaccd9612073c7a9e.sample"
+type="AudioStreamWAV"
+uid="uid://bndroih1t7gae"
+path="res://.godot/imported/CASSETTE_RATTLE_20.wav-c6b55bc49492189aaccd9612073c7a9e.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Cassette Preview/AUDIO/CASSETTE_RATTLE_20.wav"
-dest_files=[ "res://.import/CASSETTE_RATTLE_20.wav-c6b55bc49492189aaccd9612073c7a9e.sample" ]
+dest_files=["res://.godot/imported/CASSETTE_RATTLE_20.wav-c6b55bc49492189aaccd9612073c7a9e.sample"]
 
 [params]
 

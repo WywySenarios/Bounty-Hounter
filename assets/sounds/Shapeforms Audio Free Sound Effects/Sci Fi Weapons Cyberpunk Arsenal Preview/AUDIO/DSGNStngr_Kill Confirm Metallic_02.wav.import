@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/DSGNStngr_Kill Confirm Metallic_02.wav-2476c4559e712dc7aa2e640b133e6e99.sample"
+type="AudioStreamWAV"
+uid="uid://pymw3e5aeo7v"
+path="res://.godot/imported/DSGNStngr_Kill Confirm Metallic_02.wav-2476c4559e712dc7aa2e640b133e6e99.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/DSGNStngr_Kill Confirm Metallic_02.wav"
-dest_files=[ "res://.import/DSGNStngr_Kill Confirm Metallic_02.wav-2476c4559e712dc7aa2e640b133e6e99.sample" ]
+dest_files=["res://.godot/imported/DSGNStngr_Kill Confirm Metallic_02.wav-2476c4559e712dc7aa2e640b133e6e99.sample"]
 
 [params]
 

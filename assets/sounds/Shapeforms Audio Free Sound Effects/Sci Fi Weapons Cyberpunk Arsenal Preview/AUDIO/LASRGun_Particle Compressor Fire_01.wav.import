@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/LASRGun_Particle Compressor Fire_01.wav-e25b854cc935e419271ba2f45a65d3fe.sample"
+type="AudioStreamWAV"
+uid="uid://cciggg5v8vh7o"
+path="res://.godot/imported/LASRGun_Particle Compressor Fire_01.wav-e25b854cc935e419271ba2f45a65d3fe.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/LASRGun_Particle Compressor Fire_01.wav"
-dest_files=[ "res://.import/LASRGun_Particle Compressor Fire_01.wav-e25b854cc935e419271ba2f45a65d3fe.sample" ]
+dest_files=["res://.godot/imported/LASRGun_Particle Compressor Fire_01.wav-e25b854cc935e419271ba2f45a65d3fe.sample"]
 
 [params]
 

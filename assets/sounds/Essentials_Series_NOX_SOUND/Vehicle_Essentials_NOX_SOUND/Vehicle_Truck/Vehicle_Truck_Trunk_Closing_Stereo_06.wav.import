@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Truck_Trunk_Closing_Stereo_06.wav-5ec99a72bcd7977685065369eb8ceaec.sample"
+type="AudioStreamWAV"
+uid="uid://bb3s80e857r5n"
+path="res://.godot/imported/Vehicle_Truck_Trunk_Closing_Stereo_06.wav-5ec99a72bcd7977685065369eb8ceaec.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Truck/Vehicle_Truck_Trunk_Closing_Stereo_06.wav"
-dest_files=[ "res://.import/Vehicle_Truck_Trunk_Closing_Stereo_06.wav-5ec99a72bcd7977685065369eb8ceaec.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Truck_Trunk_Closing_Stereo_06.wav-5ec99a72bcd7977685065369eb8ceaec.sample"]
 
 [params]
 

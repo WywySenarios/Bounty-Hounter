@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/CLOTHING_MATERIAL_MOVEMENT_01.wav-01a58835f9866246064e5e4075492def.sample"
+type="AudioStreamWAV"
+uid="uid://dunk78ew8if6t"
+path="res://.godot/imported/CLOTHING_MATERIAL_MOVEMENT_01.wav-01a58835f9866246064e5e4075492def.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Hit and Punch Preview/AUDIO/CLOTHING_MATERIAL_MOVEMENT_01.wav"
-dest_files=[ "res://.import/CLOTHING_MATERIAL_MOVEMENT_01.wav-01a58835f9866246064e5e4075492def.sample" ]
+dest_files=["res://.godot/imported/CLOTHING_MATERIAL_MOVEMENT_01.wav-01a58835f9866246064e5e4075492def.sample"]
 
 [params]
 

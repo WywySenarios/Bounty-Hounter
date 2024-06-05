@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/LASRGun_Plasma Rifle Bullet Stream_02.wav-7603d121b93cf2ea2b6fff645de100a1.sample"
+type="AudioStreamWAV"
+uid="uid://6irdxgpjsrlg"
+path="res://.godot/imported/LASRGun_Plasma Rifle Bullet Stream_02.wav-7603d121b93cf2ea2b6fff645de100a1.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/LASRGun_Plasma Rifle Bullet Stream_02.wav"
-dest_files=[ "res://.import/LASRGun_Plasma Rifle Bullet Stream_02.wav-7603d121b93cf2ea2b6fff645de100a1.sample" ]
+dest_files=["res://.godot/imported/LASRGun_Plasma Rifle Bullet Stream_02.wav-7603d121b93cf2ea2b6fff645de100a1.sample"]
 
 [params]
 

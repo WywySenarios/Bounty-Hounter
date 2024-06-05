@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/BLLTRico_Metallic_11.wav-6a07feebf2bfa5e6d1274de039c99e1a.sample"
+type="AudioStreamWAV"
+uid="uid://do5rybsuoyel0"
+path="res://.godot/imported/BLLTRico_Metallic_11.wav-6a07feebf2bfa5e6d1274de039c99e1a.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/BLLTRico_Metallic_11.wav"
-dest_files=[ "res://.import/BLLTRico_Metallic_11.wav-6a07feebf2bfa5e6d1274de039c99e1a.sample" ]
+dest_files=["res://.godot/imported/BLLTRico_Metallic_11.wav-6a07feebf2bfa5e6d1274de039c99e1a.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Car_Engine_Idle_Exterior_Loop_Mono_01.wav-87821abbfb1ea7fee5be0e839aa073df.sample"
+type="AudioStreamWAV"
+uid="uid://2ttvjk3lf6g4"
+path="res://.godot/imported/Vehicle_Car_Engine_Idle_Exterior_Loop_Mono_01.wav-87821abbfb1ea7fee5be0e839aa073df.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Engine_Idle_Exterior_Loop_Mono_01.wav"
-dest_files=[ "res://.import/Vehicle_Car_Engine_Idle_Exterior_Loop_Mono_01.wav-87821abbfb1ea7fee5be0e839aa073df.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Car_Engine_Idle_Exterior_Loop_Mono_01.wav-87821abbfb1ea7fee5be0e839aa073df.sample"]
 
 [params]
 

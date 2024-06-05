@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_Water_Jump_Big_02.wav-9fc1afff8deda33765a527729d875cdf.sample"
+type="AudioStreamWAV"
+uid="uid://bpfwn5efyrsrx"
+path="res://.godot/imported/Footsteps_Water_Jump_Big_02.wav-9fc1afff8deda33765a527729d875cdf.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Water/Footsteps_Water_Jump/Footsteps_Water_Jump_Big_02.wav"
-dest_files=[ "res://.import/Footsteps_Water_Jump_Big_02.wav-9fc1afff8deda33765a527729d875cdf.sample" ]
+dest_files=["res://.godot/imported/Footsteps_Water_Jump_Big_02.wav-9fc1afff8deda33765a527729d875cdf.sample"]
 
 [params]
 

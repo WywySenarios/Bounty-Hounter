@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/WHOOSH_ARM_SWING_01.wav-de68de74e185be043002d81d0bd11835.sample"
+type="AudioStreamWAV"
+uid="uid://5s142s1pd1we"
+path="res://.godot/imported/WHOOSH_ARM_SWING_01.wav-de68de74e185be043002d81d0bd11835.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Hit and Punch Preview/AUDIO/WHOOSH_ARM_SWING_01.wav"
-dest_files=[ "res://.import/WHOOSH_ARM_SWING_01.wav-de68de74e185be043002d81d0bd11835.sample" ]
+dest_files=["res://.godot/imported/WHOOSH_ARM_SWING_01.wav-de68de74e185be043002d81d0bd11835.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Voice_Male_V1_Cough_Multiple_Mono_03.wav-d648a5e9716b8952f3d3e30c6380c707.sample"
+type="AudioStreamWAV"
+uid="uid://bk6rf6hggqa5p"
+path="res://.godot/imported/Voice_Male_V1_Cough_Multiple_Mono_03.wav-d648a5e9716b8952f3d3e30c6380c707.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Voices_Essentials_NOX_SOUND/Voice_Male/Voice_Male_Cough/Voice_Male_V1_Cough_Multiple_Mono_03.wav"
-dest_files=[ "res://.import/Voice_Male_V1_Cough_Multiple_Mono_03.wav-d648a5e9716b8952f3d3e30c6380c707.sample" ]
+dest_files=["res://.godot/imported/Voice_Male_V1_Cough_Multiple_Mono_03.wav-d648a5e9716b8952f3d3e30c6380c707.sample"]
 
 [params]
 

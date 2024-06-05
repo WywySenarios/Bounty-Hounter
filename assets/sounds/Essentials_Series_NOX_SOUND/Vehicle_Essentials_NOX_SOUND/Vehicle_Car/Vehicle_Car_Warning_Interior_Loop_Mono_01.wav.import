@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Car_Warning_Interior_Loop_Mono_01.wav-becc9912d6a619749feb4f6e2446e67e.sample"
+type="AudioStreamWAV"
+uid="uid://dychkguvqfynd"
+path="res://.godot/imported/Vehicle_Car_Warning_Interior_Loop_Mono_01.wav-becc9912d6a619749feb4f6e2446e67e.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Warning_Interior_Loop_Mono_01.wav"
-dest_files=[ "res://.import/Vehicle_Car_Warning_Interior_Loop_Mono_01.wav-becc9912d6a619749feb4f6e2446e67e.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Car_Warning_Interior_Loop_Mono_01.wav-becc9912d6a619749feb4f6e2446e67e.sample"]
 
 [params]
 

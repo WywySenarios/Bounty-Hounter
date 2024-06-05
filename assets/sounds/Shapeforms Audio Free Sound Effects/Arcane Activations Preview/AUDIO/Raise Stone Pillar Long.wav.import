@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Raise Stone Pillar Long.wav-a5fc3a9a3695d93fb34e7d9bad72a395.sample"
+type="AudioStreamWAV"
+uid="uid://b06u8033qttru"
+path="res://.godot/imported/Raise Stone Pillar Long.wav-a5fc3a9a3695d93fb34e7d9bad72a395.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Arcane Activations Preview/AUDIO/Raise Stone Pillar Long.wav"
-dest_files=[ "res://.import/Raise Stone Pillar Long.wav-a5fc3a9a3695d93fb34e7d9bad72a395.sample" ]
+dest_files=["res://.godot/imported/Raise Stone Pillar Long.wav-a5fc3a9a3695d93fb34e7d9bad72a395.sample"]
 
 [params]
 

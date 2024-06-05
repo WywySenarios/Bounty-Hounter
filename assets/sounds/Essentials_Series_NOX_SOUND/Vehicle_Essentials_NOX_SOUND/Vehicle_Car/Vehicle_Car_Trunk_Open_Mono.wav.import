@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Car_Trunk_Open_Mono.wav-d250b82d4d789c457c7aaa998b3cf58e.sample"
+type="AudioStreamWAV"
+uid="uid://b5r1kpgbg5m3r"
+path="res://.godot/imported/Vehicle_Car_Trunk_Open_Mono.wav-d250b82d4d789c457c7aaa998b3cf58e.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Trunk_Open_Mono.wav"
-dest_files=[ "res://.import/Vehicle_Car_Trunk_Open_Mono.wav-d250b82d4d789c457c7aaa998b3cf58e.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Car_Trunk_Open_Mono.wav-d250b82d4d789c457c7aaa998b3cf58e.sample"]
 
 [params]
 

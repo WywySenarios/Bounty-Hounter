@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Car_Wiper_Exterior_Solo_Mono.wav-bd5e7cd30fd2746077a03418d078e1eb.sample"
+type="AudioStreamWAV"
+uid="uid://dp7uqwddkxqcu"
+path="res://.godot/imported/Vehicle_Car_Wiper_Exterior_Solo_Mono.wav-bd5e7cd30fd2746077a03418d078e1eb.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Car/Vehicle_Car_Wiper_Exterior_Solo_Mono.wav"
-dest_files=[ "res://.import/Vehicle_Car_Wiper_Exterior_Solo_Mono.wav-bd5e7cd30fd2746077a03418d078e1eb.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Car_Wiper_Exterior_Solo_Mono.wav-bd5e7cd30fd2746077a03418d078e1eb.sample"]
 
 [params]
 

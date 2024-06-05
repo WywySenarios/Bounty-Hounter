@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Ambiance_Night_Loop_Stereo.wav-d0e49c47e58ac27c15310f5254490969.sample"
+type="AudioStreamWAV"
+uid="uid://bejdorfsuffa"
+path="res://.godot/imported/Ambiance_Night_Loop_Stereo.wav-d0e49c47e58ac27c15310f5254490969.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Nature_Essentials_NOX_SOUND/Ambiance_Night_Loop_Stereo.wav"
-dest_files=[ "res://.import/Ambiance_Night_Loop_Stereo.wav-d0e49c47e58ac27c15310f5254490969.sample" ]
+dest_files=["res://.godot/imported/Ambiance_Night_Loop_Stereo.wav-d0e49c47e58ac27c15310f5254490969.sample"]
 
 [params]
 

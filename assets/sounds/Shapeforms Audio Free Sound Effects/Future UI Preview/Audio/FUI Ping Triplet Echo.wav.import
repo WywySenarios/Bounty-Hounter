@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/FUI Ping Triplet Echo.wav-e92035f0afe86799d752df7675cdd76d.sample"
+type="AudioStreamWAV"
+uid="uid://c6af85kpj7rlm"
+path="res://.godot/imported/FUI Ping Triplet Echo.wav-e92035f0afe86799d752df7675cdd76d.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Future UI Preview/Audio/FUI Ping Triplet Echo.wav"
-dest_files=[ "res://.import/FUI Ping Triplet Echo.wav-e92035f0afe86799d752df7675cdd76d.sample" ]
+dest_files=["res://.godot/imported/FUI Ping Triplet Echo.wav-e92035f0afe86799d752df7675cdd76d.sample"]
 
 [params]
 

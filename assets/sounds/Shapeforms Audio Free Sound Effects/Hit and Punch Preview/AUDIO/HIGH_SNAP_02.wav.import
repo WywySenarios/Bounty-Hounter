@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/HIGH_SNAP_02.wav-0ba19383616e317de9995aa1278e2c66.sample"
+type="AudioStreamWAV"
+uid="uid://c83flatpa1lie"
+path="res://.godot/imported/HIGH_SNAP_02.wav-0ba19383616e317de9995aa1278e2c66.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Hit and Punch Preview/AUDIO/HIGH_SNAP_02.wav"
-dest_files=[ "res://.import/HIGH_SNAP_02.wav-0ba19383616e317de9995aa1278e2c66.sample" ]
+dest_files=["res://.godot/imported/HIGH_SNAP_02.wav-0ba19383616e317de9995aa1278e2c66.sample"]
 
 [params]
 

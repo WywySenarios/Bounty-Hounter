@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Activate Plinth 03.wav-304ef9b7bba40be6c876aee9083420b0.sample"
+type="AudioStreamWAV"
+uid="uid://cjt6srtvx6e38"
+path="res://.godot/imported/Activate Plinth 03.wav-304ef9b7bba40be6c876aee9083420b0.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Arcane Activations Preview/AUDIO/Activate Plinth 03.wav"
-dest_files=[ "res://.import/Activate Plinth 03.wav-304ef9b7bba40be6c876aee9083420b0.sample" ]
+dest_files=["res://.godot/imported/Activate Plinth 03.wav-304ef9b7bba40be6c876aee9083420b0.sample"]
 
 [params]
 

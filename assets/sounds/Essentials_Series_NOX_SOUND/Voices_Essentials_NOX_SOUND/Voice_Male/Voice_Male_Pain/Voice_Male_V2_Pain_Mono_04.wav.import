@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Voice_Male_V2_Pain_Mono_04.wav-6255c356b4351ed819f71a6eee398097.sample"
+type="AudioStreamWAV"
+uid="uid://6vuk5jfx2430"
+path="res://.godot/imported/Voice_Male_V2_Pain_Mono_04.wav-6255c356b4351ed819f71a6eee398097.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Voices_Essentials_NOX_SOUND/Voice_Male/Voice_Male_Pain/Voice_Male_V2_Pain_Mono_04.wav"
-dest_files=[ "res://.import/Voice_Male_V2_Pain_Mono_04.wav-6255c356b4351ed819f71a6eee398097.sample" ]
+dest_files=["res://.godot/imported/Voice_Male_V2_Pain_Mono_04.wav-6255c356b4351ed819f71a6eee398097.sample"]
 
 [params]
 

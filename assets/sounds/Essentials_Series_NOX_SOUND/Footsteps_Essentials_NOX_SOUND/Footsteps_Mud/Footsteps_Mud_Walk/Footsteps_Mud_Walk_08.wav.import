@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_Mud_Walk_08.wav-8a564c4086c6e43d9539b88985a1e7cf.sample"
+type="AudioStreamWAV"
+uid="uid://boek0equ7c5ts"
+path="res://.godot/imported/Footsteps_Mud_Walk_08.wav-8a564c4086c6e43d9539b88985a1e7cf.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_08.wav"
-dest_files=[ "res://.import/Footsteps_Mud_Walk_08.wav-8a564c4086c6e43d9539b88985a1e7cf.sample" ]
+dest_files=["res://.godot/imported/Footsteps_Mud_Walk_08.wav-8a564c4086c6e43d9539b88985a1e7cf.sample"]
 
 [params]
 

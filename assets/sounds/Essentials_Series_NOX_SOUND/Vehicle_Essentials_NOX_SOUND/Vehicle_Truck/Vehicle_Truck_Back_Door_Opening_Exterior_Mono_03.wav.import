@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Vehicle_Truck_Back_Door_Opening_Exterior_Mono_03.wav-dedef0d9fd0a3aadf50216f8b233a1e4.sample"
+type="AudioStreamWAV"
+uid="uid://elcq4ppeia21"
+path="res://.godot/imported/Vehicle_Truck_Back_Door_Opening_Exterior_Mono_03.wav-dedef0d9fd0a3aadf50216f8b233a1e4.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Vehicle_Essentials_NOX_SOUND/Vehicle_Truck/Vehicle_Truck_Back_Door_Opening_Exterior_Mono_03.wav"
-dest_files=[ "res://.import/Vehicle_Truck_Back_Door_Opening_Exterior_Mono_03.wav-dedef0d9fd0a3aadf50216f8b233a1e4.sample" ]
+dest_files=["res://.godot/imported/Vehicle_Truck_Back_Door_Opening_Exterior_Mono_03.wav-dedef0d9fd0a3aadf50216f8b233a1e4.sample"]
 
 [params]
 

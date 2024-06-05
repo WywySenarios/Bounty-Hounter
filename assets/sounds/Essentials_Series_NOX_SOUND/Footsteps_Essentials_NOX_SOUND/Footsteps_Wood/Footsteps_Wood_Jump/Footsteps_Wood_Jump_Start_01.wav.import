@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Footsteps_Wood_Jump_Start_01.wav-f148100ebda7bdf888d25df51ea99778.sample"
+type="AudioStreamWAV"
+uid="uid://defb73h3wxug8"
+path="res://.godot/imported/Footsteps_Wood_Jump_Start_01.wav-f148100ebda7bdf888d25df51ea99778.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Wood/Footsteps_Wood_Jump/Footsteps_Wood_Jump_Start_01.wav"
-dest_files=[ "res://.import/Footsteps_Wood_Jump_Start_01.wav-f148100ebda7bdf888d25df51ea99778.sample" ]
+dest_files=["res://.godot/imported/Footsteps_Wood_Jump_Start_01.wav-f148100ebda7bdf888d25df51ea99778.sample"]
 
 [params]
 

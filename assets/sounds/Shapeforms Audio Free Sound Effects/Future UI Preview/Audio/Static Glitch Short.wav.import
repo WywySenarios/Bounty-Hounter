@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Static Glitch Short.wav-458be02eea2591ce0868530f48c852e1.sample"
+type="AudioStreamWAV"
+uid="uid://dkm3m771twf81"
+path="res://.godot/imported/Static Glitch Short.wav-458be02eea2591ce0868530f48c852e1.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Future UI Preview/Audio/Static Glitch Short.wav"
-dest_files=[ "res://.import/Static Glitch Short.wav-458be02eea2591ce0868530f48c852e1.sample" ]
+dest_files=["res://.godot/imported/Static Glitch Short.wav-458be02eea2591ce0868530f48c852e1.sample"]
 
 [params]
 

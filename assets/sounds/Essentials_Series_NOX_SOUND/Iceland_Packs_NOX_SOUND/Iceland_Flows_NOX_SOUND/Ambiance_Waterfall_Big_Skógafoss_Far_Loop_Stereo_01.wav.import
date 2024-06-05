@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Ambiance_Waterfall_Big_Skógafoss_Far_Loop_Stereo_01.wav-34b1b18af219a429101dc0fbf2bb623b.sample"
+type="AudioStreamWAV"
+uid="uid://c4hlel0gfpgma"
+path="res://.godot/imported/Ambiance_Waterfall_Big_Skógafoss_Far_Loop_Stereo_01.wav-34b1b18af219a429101dc0fbf2bb623b.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Iceland_Packs_NOX_SOUND/Iceland_Flows_NOX_SOUND/Ambiance_Waterfall_Big_Skógafoss_Far_Loop_Stereo_01.wav"
-dest_files=[ "res://.import/Ambiance_Waterfall_Big_Skógafoss_Far_Loop_Stereo_01.wav-34b1b18af219a429101dc0fbf2bb623b.sample" ]
+dest_files=["res://.godot/imported/Ambiance_Waterfall_Big_Skógafoss_Far_Loop_Stereo_01.wav-34b1b18af219a429101dc0fbf2bb623b.sample"]
 
 [params]
 

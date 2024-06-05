@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/ANMLBat_Creature Vocalisation_01.wav-120dc2b597a1b7ff1581a191123882c0.sample"
+type="AudioStreamWAV"
+uid="uid://c4br16ai5gmw4"
+path="res://.godot/imported/ANMLBat_Creature Vocalisation_01.wav-120dc2b597a1b7ff1581a191123882c0.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Sci Fi Weapons Cyberpunk Arsenal Preview/AUDIO/ANMLBat_Creature Vocalisation_01.wav"
-dest_files=[ "res://.import/ANMLBat_Creature Vocalisation_01.wav-120dc2b597a1b7ff1581a191123882c0.sample" ]
+dest_files=["res://.godot/imported/ANMLBat_Creature Vocalisation_01.wav-120dc2b597a1b7ff1581a191123882c0.sample"]
 
 [params]
 

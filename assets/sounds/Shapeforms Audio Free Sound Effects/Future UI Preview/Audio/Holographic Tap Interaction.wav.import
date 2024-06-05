@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Holographic Tap Interaction.wav-a34d00712099f60563ab557b232c017a.sample"
+type="AudioStreamWAV"
+uid="uid://cm8rrexgcjavn"
+path="res://.godot/imported/Holographic Tap Interaction.wav-a34d00712099f60563ab557b232c017a.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Future UI Preview/Audio/Holographic Tap Interaction.wav"
-dest_files=[ "res://.import/Holographic Tap Interaction.wav-a34d00712099f60563ab557b232c017a.sample" ]
+dest_files=["res://.godot/imported/Holographic Tap Interaction.wav-a34d00712099f60563ab557b232c017a.sample"]
 
 [params]
 

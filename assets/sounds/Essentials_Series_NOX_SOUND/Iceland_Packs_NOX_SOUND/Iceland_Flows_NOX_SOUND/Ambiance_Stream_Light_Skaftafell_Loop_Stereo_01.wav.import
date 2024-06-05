@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Ambiance_Stream_Light_Skaftafell_Loop_Stereo_01.wav-9007067fcfa5c0026ab3864307fb335d.sample"
+type="AudioStreamWAV"
+uid="uid://bpjyje1u7xijc"
+path="res://.godot/imported/Ambiance_Stream_Light_Skaftafell_Loop_Stereo_01.wav-9007067fcfa5c0026ab3864307fb335d.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Iceland_Packs_NOX_SOUND/Iceland_Flows_NOX_SOUND/Ambiance_Stream_Light_Skaftafell_Loop_Stereo_01.wav"
-dest_files=[ "res://.import/Ambiance_Stream_Light_Skaftafell_Loop_Stereo_01.wav-9007067fcfa5c0026ab3864307fb335d.sample" ]
+dest_files=["res://.godot/imported/Ambiance_Stream_Light_Skaftafell_Loop_Stereo_01.wav-9007067fcfa5c0026ab3864307fb335d.sample"]
 
 [params]
 

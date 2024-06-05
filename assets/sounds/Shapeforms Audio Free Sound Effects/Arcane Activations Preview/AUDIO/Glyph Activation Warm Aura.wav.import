@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Glyph Activation Warm Aura.wav-6c1a15a43d906958e01c6f6c18074917.sample"
+type="AudioStreamWAV"
+uid="uid://ewe4wupxtopg"
+path="res://.godot/imported/Glyph Activation Warm Aura.wav-6c1a15a43d906958e01c6f6c18074917.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Arcane Activations Preview/AUDIO/Glyph Activation Warm Aura.wav"
-dest_files=[ "res://.import/Glyph Activation Warm Aura.wav-6c1a15a43d906958e01c6f6c18074917.sample" ]
+dest_files=["res://.godot/imported/Glyph Activation Warm Aura.wav-6c1a15a43d906958e01c6f6c18074917.sample"]
 
 [params]
 

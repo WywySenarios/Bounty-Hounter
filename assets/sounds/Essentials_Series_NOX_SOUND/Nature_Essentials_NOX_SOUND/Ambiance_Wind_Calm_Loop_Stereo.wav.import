@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Ambiance_Wind_Calm_Loop_Stereo.wav-5772efb4d93c39c18dee2aa94bbe592d.sample"
+type="AudioStreamWAV"
+uid="uid://jheurgcwr8sd"
+path="res://.godot/imported/Ambiance_Wind_Calm_Loop_Stereo.wav-5772efb4d93c39c18dee2aa94bbe592d.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Essentials_Series_NOX_SOUND/Nature_Essentials_NOX_SOUND/Ambiance_Wind_Calm_Loop_Stereo.wav"
-dest_files=[ "res://.import/Ambiance_Wind_Calm_Loop_Stereo.wav-5772efb4d93c39c18dee2aa94bbe592d.sample" ]
+dest_files=["res://.godot/imported/Ambiance_Wind_Calm_Loop_Stereo.wav-5772efb4d93c39c18dee2aa94bbe592d.sample"]
 
 [params]
 

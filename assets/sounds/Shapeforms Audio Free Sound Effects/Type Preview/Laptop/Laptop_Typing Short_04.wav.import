@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Laptop_Typing Short_04.wav-1d0ed8b1a62212bf378b02f5d5d1bb66.sample"
+type="AudioStreamWAV"
+uid="uid://cl44svw6v6pqk"
+path="res://.godot/imported/Laptop_Typing Short_04.wav-1d0ed8b1a62212bf378b02f5d5d1bb66.sample"
 
 [deps]
 
 source_file="res://assets/sounds/Shapeforms Audio Free Sound Effects/Type Preview/Laptop/Laptop_Typing Short_04.wav"
-dest_files=[ "res://.import/Laptop_Typing Short_04.wav-1d0ed8b1a62212bf378b02f5d5d1bb66.sample" ]
+dest_files=["res://.godot/imported/Laptop_Typing Short_04.wav-1d0ed8b1a62212bf378b02f5d5d1bb66.sample"]
 
 [params]
 
