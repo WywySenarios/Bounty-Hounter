@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://assets/enemies/character_0015.png" type="Texture" id=1]
 [ext_resource path="res://assets/enemies/character_0016.png" type="Texture" id=2]
@@ -55,6 +55,18 @@ tracks/3/keys = {
 "transitions": PoolRealArray( 1 ),
 "update": 1,
 "values": [ false ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Visuals/AnimatedSprite:use_parent_material")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0.1 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
 }
 
 [sub_resource type="Animation" id=5]
@@ -113,6 +125,21 @@ tracks/3/keys = {
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 4, 5 )
 
+[sub_resource type="Shader" id=7]
+code = "shader_type canvas_item; //this is a 2D shader
+
+uniform vec4 baseColor : hint_color; //uniform means a variable that can be used in fragment
+
+void fragment(){ // tells the engine how every pixel should be colored
+	vec4 texColor = texture(TEXTURE, UV);
+	COLOR.rgba = vec4(baseColor.r, baseColor.g, baseColor.b, texColor.a);
+//	COLOR.rgb = vec3(0.0, 0.0, 0.0);
+}"
+
+[sub_resource type="ShaderMaterial" id=8]
+shader = SubResource( 7 )
+shader_param/baseColor = Color( 0.905882, 0.556863, 0.556863, 1 )
+
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
 "frames": [ ExtResource( 1 ), ExtResource( 2 ) ],
@@ -134,6 +161,7 @@ radius = 4.12311
 [node name="Enemy" type="KinematicBody2D"]
 collision_layer = 0
 script = ExtResource( 3 )
+isSpawning = false
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "spawn"
@@ -149,9 +177,11 @@ shape = SubResource( 2 )
 [node name="Visuals" type="Node2D" parent="."]
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Visuals"]
+material = SubResource( 8 )
 position = Vector2( 0, -12 )
 frames = SubResource( 1 )
-animation = "spawn"
+animation = "run"
+frame = 1
 playing = true
 
 [node name="HazardArea" type="Area2D" parent="."]
@@ -161,7 +191,6 @@ collision_mask = 262144
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HazardArea"]
 position = Vector2( -1, -5 )
 shape = SubResource( 3 )
-disabled = true
 
 [node name="HitboxArea" type="Area2D" parent="."]
 collision_layer = 2
@@ -170,4 +199,3 @@ collision_mask = 0
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HitboxArea"]
 position = Vector2( -1, -7 )
 shape = SubResource( 4 )
-disabled = true
