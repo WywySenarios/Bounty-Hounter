@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://s2p0vj61b1n1"]
+
+[ext_resource type="Script" path="res://GameCamera.gd" id="1"]
+
+[sub_resource type="FastNoiseLite" id="1"]
+
+[node name="GameCamera" type="Camera2D" groups=["camera"]]
+script = ExtResource("1")
+backgroundColor = Color(0.898039, 1, 0.988235, 1)
+shakeNoise = SubResource("1")

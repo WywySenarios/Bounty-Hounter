@@ -1,1 +1,9 @@
 res://scenes/Main.tscn
+res://scripts/BaseLevel.gd
+res://scenes/Brick.tscn
+res://scripts/Brick.gd
+res://scenes/Player.tscn
+res://scenes/RandomAudioStreamPlayer.gd
+res://scenes/GameCamera.tscn
+res://GameCamera.gd
+res://scripts/Player.gd

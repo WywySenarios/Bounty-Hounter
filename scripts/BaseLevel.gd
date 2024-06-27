@@ -11,7 +11,7 @@ var collectedCoins = 0
 func _ready():
 	spawnPosition = $PlayerRoot/Player.global_position
 	register_player($PlayerRoot/Player)
-	coin_total_changed(get_tree().get_nodes_in_group("coin").size())
+	coin_total_Changed(get_tree().get_nodes_in_group("coin").size())
 
 	$TriggersAndTransitions/Flag.connect("player_won", Callable(self, "on_player_won"))
 	
@@ -19,7 +19,7 @@ func coin_collected():
 	collectedCoins += 1
 	emit_signal("coin_total_changed", totalCoins, collectedCoins)
 
-func coin_total_changed(newTotal):
+func coin_total_Changed(newTotal):
 	totalCoins = newTotal
 	emit_signal("coin_total_changed", totalCoins, collectedCoins)
 

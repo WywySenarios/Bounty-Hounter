@@ -1,6 +1,6 @@
 extends Node
 
-@export (int) var numberToPlay = 2
+@export var numberToPlay: int = 2
 
 var rng = RandomNumberGenerator.new()
 

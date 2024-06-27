@@ -62,7 +62,7 @@ func process_normal(delta):
 	var inputVector = get_input_vector()
 	
 	if(inputVector.x == 0):
-		velocity.x = lerp(0, velocity.x, pow(2, -20*delta))
+		velocity.x = lerp(0, (int) velocity.x, pow(2, -20.0*delta))
 	
 	velocity.x = clamp(velocity.x, -maxWalkSpeed, maxWalkSpeed)
 	

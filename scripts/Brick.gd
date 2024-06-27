@@ -1,8 +1,8 @@
 extends CharacterBody2D
 
 var direction = Vector2.ZERO
-@export var maxSpeed = 2000
-@export var startDirection = Vector2.UP
+@export var maxSpeed: int = 2000
+@export var startDirection: Vector2 = Vector2.UP
 
 func _ready():
 	#velocity = Vector2.ZERO

@@ -1,20 +1,20 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=27 format=3 uid="uid://2rvffx3uv5cn"]
 
-[ext_resource path="res://scripts/Player.gd" type="Script" id=1]
-[ext_resource path="res://assets/player/character_0000.png" type="Texture2D" id=2]
-[ext_resource path="res://assets/player/character_0001.png" type="Texture2D" id=3]
-[ext_resource path="res://scenes/RandomAudioStreamPlayer.tscn" type="PackedScene" id=4]
-[ext_resource path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_01.wav" type="AudioStream" id=5]
-[ext_resource path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_02.wav" type="AudioStream" id=6]
-[ext_resource path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_03.wav" type="AudioStream" id=7]
-[ext_resource path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_04.wav" type="AudioStream" id=8]
-[ext_resource path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_05.wav" type="AudioStream" id=9]
-[ext_resource path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_07.wav" type="AudioStream" id=10]
-[ext_resource path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_09.wav" type="AudioStream" id=11]
-[ext_resource path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_08.wav" type="AudioStream" id=12]
-[ext_resource path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_10.wav" type="AudioStream" id=13]
+[ext_resource type="Script" path="res://scripts/Player.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://7dflah5esoxk" path="res://assets/player/character_0000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://b5erg647g51r6" path="res://assets/player/character_0001.png" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/RandomAudioStreamPlayer.tscn" id="4"]
+[ext_resource type="AudioStream" uid="uid://chmlvgriany88" path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_01.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://dbtjy448tgji0" path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_02.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://bdbnq0vgdmack" path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_03.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://cy1regwgxtxwl" path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_04.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://csd5vbj775yfd" path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_05.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://b2dbdiisrmqe1" path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_07.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://cu3jhgtnd3urj" path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_09.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://c85e7pewq15d8" path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_08.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://ik0hitt0ggq7" path="res://assets/sounds/Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_10.wav" id="13"]
 
-[sub_resource type="Shader" id=8]
+[sub_resource type="Shader" id="8"]
 code = "shader_type canvas_item; //this is a 2D shader
 
 uniform vec4 baseColor : source_color; //uniform means a variable that can be used in fragment
@@ -25,106 +25,122 @@ void fragment(){ // tells the engine how every pixel should be colored
 //	COLOR.rgb = vec3(0.0, 0.0, 0.0);
 }"
 
-[sub_resource type="ShaderMaterial" id=9]
-shader = SubResource( 8 )
-shader_param/baseColor = Color( 0.52549, 0.964706, 0.733333, 1 )
+[sub_resource type="ShaderMaterial" id="9"]
+shader = SubResource("8")
+shader_parameter/baseColor = Color(0.52549, 0.964706, 0.733333, 1)
 
-[sub_resource type="Gradient" id=12]
-offsets = PackedFloat32Array( 0.161616, 0.989899 )
-colors = PackedColorArray( 1, 1, 1, 1, 1, 1, 1, 0.333333 )
+[sub_resource type="Gradient" id="12"]
+offsets = PackedFloat32Array(0.161616, 0.989899)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0.333333)
 
-[sub_resource type="GradientTexture2D" id=13]
-gradient = SubResource( 12 )
+[sub_resource type="GradientTexture2D" id="13"]
+gradient = SubResource("12")
 
-[sub_resource type="Curve" id=10]
-_data = [ Vector2( 0, 1 ), 0.0, 0.0, 0, 0, Vector2( 0.339367, 1 ), 0.0, 0.0, 0, 0, Vector2( 1, 0 ), 0.0, 0.0, 0, 0 ]
+[sub_resource type="Curve" id="10"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.339367, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
 
-[sub_resource type="CurveTexture" id=11]
-curve = SubResource( 10 )
+[sub_resource type="CurveTexture" id="11"]
+curve = SubResource("10")
 
-[sub_resource type="ParticleProcessMaterial" id=7]
-flag_disable_z = true
-gravity = Vector3( 0, 0, 0 )
-orbit_velocity = 0.0
-orbit_velocity_random = 0.0
-scale_curve = SubResource( 11 )
-color_ramp = SubResource( 13 )
+[sub_resource type="ParticleProcessMaterial" id="7"]
+gravity = Vector3(0, 0, 0)
+scale_curve = SubResource("11")
+color_ramp = SubResource("13")
 
-[sub_resource type="CircleShape2D" id=3]
+[sub_resource type="CircleShape2D" id="3"]
 radius = 16.0
 
-[sub_resource type="RectangleShape2D" id=4]
-extents = Vector2( 4, 7 )
+[sub_resource type="RectangleShape2D" id="4"]
+size = Vector2(8, 14)
 
-[sub_resource type="SpriteFrames" id=2]
-animations = [ {
-"frames": [ ExtResource( 2 ) ],
+[sub_resource type="SpriteFrames" id="2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}],
 "loop": true,
-"name": "idle",
+"name": &"idle",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 3 ) ],
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}],
 "loop": true,
-"name": "jump",
+"name": &"jump",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 2 ), ExtResource( 3 ) ],
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}],
 "loop": true,
-"name": "run",
+"name": &"run",
 "speed": 10.0
 }, {
-"frames": [ ExtResource( 2 ), ExtResource( 3 ) ],
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}],
 "loop": true,
-"name": "walk",
+"name": &"walk",
 "speed": 5.0
-} ]
+}]
 
-[sub_resource type="CapsuleShape2D" id=1]
-radius = 6.0
+[sub_resource type="CapsuleShape2D" id="1"]
+radius = 0.0
 height = 0.0
 
-[sub_resource type="RectangleShape2D" id=5]
-extents = Vector2( 8.99996, 7.49839 )
+[sub_resource type="RectangleShape2D" id="5"]
+size = Vector2(17.9999, 14.9968)
 
-[sub_resource type="CapsuleShape2D" id=6]
-radius = 11.0
+[sub_resource type="CapsuleShape2D" id="6"]
+radius = 5.5
 height = 11.0
 
 [node name="Player" type="CharacterBody2D" groups=["player"]]
 collision_layer = 0
-script = ExtResource( 1 )
+script = ExtResource("1")
 
-[node name="FootstepAudioPlayer" parent="." instance=ExtResource( 4 )]
+[node name="FootstepAudioPlayer" parent="." instance=ExtResource("4")]
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="FootstepAudioPlayer"]
-stream = ExtResource( 5 )
+stream = ExtResource("5")
 
 [node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="FootstepAudioPlayer"]
-stream = ExtResource( 6 )
+stream = ExtResource("6")
 
 [node name="AudioStreamPlayer3" type="AudioStreamPlayer" parent="FootstepAudioPlayer"]
-stream = ExtResource( 7 )
+stream = ExtResource("7")
 
 [node name="AudioStreamPlayer4" type="AudioStreamPlayer" parent="FootstepAudioPlayer"]
-stream = ExtResource( 8 )
+stream = ExtResource("8")
 
 [node name="AudioStreamPlayer5" type="AudioStreamPlayer" parent="FootstepAudioPlayer"]
-stream = ExtResource( 9 )
+stream = ExtResource("9")
 
 [node name="AudioStreamPlayer6" type="AudioStreamPlayer" parent="FootstepAudioPlayer"]
-stream = ExtResource( 10 )
+stream = ExtResource("10")
 
 [node name="AudioStreamPlayer7" type="AudioStreamPlayer" parent="FootstepAudioPlayer"]
-stream = ExtResource( 9 )
+stream = ExtResource("9")
 
 [node name="AudioStreamPlayer8" type="AudioStreamPlayer" parent="FootstepAudioPlayer"]
-stream = ExtResource( 12 )
+stream = ExtResource("12")
 
 [node name="AudioStreamPlayer9" type="AudioStreamPlayer" parent="FootstepAudioPlayer"]
-stream = ExtResource( 11 )
+stream = ExtResource("11")
 
 [node name="AudioStreamPlayer10" type="AudioStreamPlayer" parent="FootstepAudioPlayer"]
-stream = ExtResource( 13 )
+stream = ExtResource("13")
 
 [node name="MiniTimer" type="Timer" parent="."]
 wait_time = 0.1
@@ -144,15 +160,14 @@ one_shot = true
 
 [node name="DashParticles" type="GPUParticles2D" parent="."]
 show_behind_parent = true
-material = SubResource( 9 )
-position = Vector2( 0, -12 )
+material = SubResource("9")
+position = Vector2(0, -12)
 emitting = false
 amount = 15
+process_material = SubResource("7")
+texture = ExtResource("2")
 lifetime = 0.4
 one_shot = true
-local_coords = false
-process_material = SubResource( 7 )
-texture = ExtResource( 2 )
 
 [node name="PickupArea" type="Area2D" parent="."]
 collision_layer = 524288
@@ -160,8 +175,8 @@ collision_mask = 524288
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PickupArea"]
 visible = false
-position = Vector2( 0, -10 )
-shape = SubResource( 3 )
+position = Vector2(0, -10)
+shape = SubResource("3")
 
 [node name="HitboxArea" type="Area2D" parent="."]
 collision_layer = 393216
@@ -169,24 +184,23 @@ collision_mask = 393216
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HitboxArea"]
 visible = false
-position = Vector2( 0, -7 )
-shape = SubResource( 4 )
+position = Vector2(0, -7)
+shape = SubResource("4")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2( 0, -12 )
-frames = SubResource( 2 )
-animation = "walk"
+position = Vector2(0, -12)
+sprite_frames = SubResource("2")
+animation = &"walk"
 frame = 1
-playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0, -8 )
-shape = SubResource( 1 )
+position = Vector2(0, -8)
+shape = SubResource("1")
 
 [node name="FloorCollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0.00157222, -7.50158 )
+position = Vector2(0.00157222, -7.50158)
 rotation = -0.00315379
-shape = SubResource( 5 )
+shape = SubResource("5")
 disabled = true
 
 [node name="DashArea" type="Area2D" parent="."]
@@ -195,7 +209,7 @@ collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DashArea"]
 visible = false
-position = Vector2( 0, -11 )
+position = Vector2(0, -11)
 rotation = -1.5708
-shape = SubResource( 6 )
+shape = SubResource("6")
 disabled = true

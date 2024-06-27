@@ -2,7 +2,7 @@ extends Camera2D
 
 var targetPosition = Vector2.ZERO
 
-@export var backgroundColor # (Color, RGB)
+@export var backgroundColor: Color# (Color, RGB)
 @export var shakeNoise: FastNoiseLite
 
 var xNoiseSampleVector = Vector2.RIGHT
@@ -20,7 +20,7 @@ func _ready():
 	
 
 func _process(delta):
-	get_target_position()
+	Get_target_position()
 	
 	global_position = lerp(targetPosition, global_position, pow(2, -10*delta))
 	if(Input.is_action_just_pressed("ui_secondary")):
@@ -40,12 +40,11 @@ func _process(delta):
 func apply_shake(percentage):
 	currentShakePercentage = clamp(currentShakePercentage + percentage, 0, 1)
 	
-func get_target_position():
+func Get_target_position():
 	var acquired = get_target_position_from_node_group("player")
 	if(!acquired):
 		get_target_position_from_node_group("player_death")
 	
-		
 func get_target_position_from_node_group(groupName):
 	var nodes = get_tree().get_nodes_in_group(groupName)
 	if(nodes.size() > 0):
