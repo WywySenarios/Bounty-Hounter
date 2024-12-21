@@ -1,44 +1,41 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=9 format=3 uid="uid://bsfbrj45g6eeb"]
 
-[ext_resource path="res://resources/tileset.tres" type="TileSet" id=1]
-[ext_resource path="res://scripts/BaseLevel.gd" type="Script" id=2]
-[ext_resource path="res://scenes/Player.tscn" type="PackedScene" id=3]
-[ext_resource path="res://scenes/GameCamera.tscn" type="PackedScene" id=4]
-[ext_resource path="res://scenes/UI/LevelUI.tscn" type="PackedScene" id=5]
-[ext_resource path="res://scenes/Flag.tscn" type="PackedScene" id=6]
-[ext_resource path="res://resources/deco_tileset.tres" type="TileSet" id=7]
-[ext_resource path="res://scenes/Clouds.tscn" type="PackedScene" id=8]
+[ext_resource type="TileSet" uid="uid://cdcp4som1atfc" path="res://resources/tileset.tres" id="1"]
+[ext_resource type="Script" path="res://scripts/BaseLevel.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://2rvffx3uv5cn" path="res://scenes/Player.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://s2p0vj61b1n1" path="res://scenes/GameCamera.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/UI/LevelUI.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://bj7bfvb2tdiu1" path="res://scenes/Flag.tscn" id="6"]
+[ext_resource type="TileSet" path="res://resources/deco_tileset.tres" id="7"]
+[ext_resource type="PackedScene" path="res://scenes/Clouds.tscn" id="8"]
 
 [node name="BaseLevel" type="Node" groups=["base_level"]]
-script = ExtResource( 2 )
+script = ExtResource("2")
 
-[node name="LevelUI" parent="." instance=ExtResource( 5 )]
+[node name="LevelUI" parent="." instance=ExtResource("5")]
 
-[node name="GameCamera" parent="." instance=ExtResource( 4 )]
+[node name="GameCamera" parent="." instance=ExtResource("4")]
 
-[node name="Clouds" parent="GameCamera" instance=ExtResource( 8 )]
+[node name="Clouds" parent="GameCamera" instance=ExtResource("8")]
 
 [node name="TileMap" type="TileMap" parent="."]
-tile_set = ExtResource( 1 )
-cell_size = Vector2( 18, 18 )
-cell_quadrant_size = 18
-format = 1
+tile_set = ExtResource("1")
+rendering_quadrant_size = 18
+format = 2
 
 [node name="DecorativeTileMap" type="TileMap" parent="."]
-tile_set = ExtResource( 7 )
-cell_size = Vector2( 18, 18 )
-cell_quadrant_size = 18
-format = 1
+tile_set = ExtResource("7")
+rendering_quadrant_size = 18
+format = 2
 
 [node name="Foreground tilemap" type="TileMap" parent="."]
-tile_set = ExtResource( 1 )
-cell_size = Vector2( 18, 18 )
-cell_quadrant_size = 18
-format = 1
+tile_set = ExtResource("1")
+rendering_quadrant_size = 18
+format = 2
 
 [node name="TriggersAndTransitions" type="Node2D" parent="."]
 
-[node name="Flag" parent="TriggersAndTransitions" instance=ExtResource( 6 )]
+[node name="Flag" parent="TriggersAndTransitions" instance=ExtResource("6")]
 
 [node name="Enemies" type="Node2D" parent="."]
 
@@ -50,4 +47,4 @@ format = 1
 
 [node name="PlayerRoot" type="Node2D" parent="."]
 
-[node name="Player" parent="PlayerRoot" instance=ExtResource( 3 )]
+[node name="Player" parent="PlayerRoot" instance=ExtResource("3")]

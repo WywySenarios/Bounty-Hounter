@@ -11,3 +11,16 @@ C:\_dev\game-dev\Godot4Games\Bounty hounter\.godot\mono\temp\obj\Debug\Bounty ho
 C:\_dev\game-dev\Godot4Games\Bounty hounter\.godot\mono\temp\obj\Debug\refint\Bounty hounter.dll
 C:\_dev\game-dev\Godot4Games\Bounty hounter\.godot\mono\temp\obj\Debug\Bounty hounter.pdb
 C:\_dev\game-dev\Godot4Games\Bounty hounter\.godot\mono\temp\obj\Debug\ref\Bounty hounter.dll
+C:\Users\julie\OneDrive\Desktop\Godot4 Games\Bounty-Hounter\.godot\mono\temp\bin\Debug\Bounty hounter.deps.json
+C:\Users\julie\OneDrive\Desktop\Godot4 Games\Bounty-Hounter\.godot\mono\temp\bin\Debug\Bounty hounter.dll
+C:\Users\julie\OneDrive\Desktop\Godot4 Games\Bounty-Hounter\.godot\mono\temp\bin\Debug\Bounty hounter.pdb
+C:\Users\julie\OneDrive\Desktop\Godot4 Games\Bounty-Hounter\.godot\mono\temp\obj\Debug\Bounty hounter.csproj.AssemblyReference.cache
+C:\Users\julie\OneDrive\Desktop\Godot4 Games\Bounty-Hounter\.godot\mono\temp\obj\Debug\Bounty hounter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julie\OneDrive\Desktop\Godot4 Games\Bounty-Hounter\.godot\mono\temp\obj\Debug\Bounty hounter.AssemblyInfoInputs.cache
+C:\Users\julie\OneDrive\Desktop\Godot4 Games\Bounty-Hounter\.godot\mono\temp\obj\Debug\Bounty hounter.AssemblyInfo.cs
+C:\Users\julie\OneDrive\Desktop\Godot4 Games\Bounty-Hounter\.godot\mono\temp\obj\Debug\Bounty hounter.csproj.CoreCompileInputs.cache
+C:\Users\julie\OneDrive\Desktop\Godot4 Games\Bounty-Hounter\.godot\mono\temp\obj\Debug\Bounty hounter.sourcelink.json
+C:\Users\julie\OneDrive\Desktop\Godot4 Games\Bounty-Hounter\.godot\mono\temp\obj\Debug\Bounty hounter.dll
+C:\Users\julie\OneDrive\Desktop\Godot4 Games\Bounty-Hounter\.godot\mono\temp\obj\Debug\refint\Bounty hounter.dll
+C:\Users\julie\OneDrive\Desktop\Godot4 Games\Bounty-Hounter\.godot\mono\temp\obj\Debug\Bounty hounter.pdb
+C:\Users\julie\OneDrive\Desktop\Godot4 Games\Bounty-Hounter\.godot\mono\temp\obj\Debug\ref\Bounty hounter.dll

@@ -18,4 +18,6 @@ func play():
 			break
 		var idx = rng.randi_range(0, validNodes.size() - 1)	
 		validNodes[idx].play()
-		validNodes.remove(idx)
+		
+		#@david I modified this line of code and IDK if it fully works or not
+		validNodes.remove_at(idx)

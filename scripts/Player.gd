@@ -7,8 +7,7 @@ var footstepParticles = preload("res://scenes/FootstepParticles.tscn")
 
 enum State { NORMAL, DASHING }
 
-#MAYBE BUGGED
-@export var dashHazardMask = 0 # (int, LAYERS_2D_PHYSICS)
+#@export var dashHazardMask: LAYERS_2D_PHYSICS
 
 # we can put the variables in a seperate file but it's a bit complicated so do it later
 var left = "ui_left"
@@ -18,7 +17,7 @@ var jump2 = "ui_jump2"
 var down = "ui_down"
 
 var gravity = 1000
-#var velocity = Vector2.ZERO
+#velocity = Vector2.ZERO
 var maxRunSpeed = 400
 var runAcceleration = 600
 var maxWalkSpeed = 200
@@ -37,8 +36,13 @@ var defaultHazardMask = 0
 
 
 func _ready():
-	$HitboxArea.connect("area_entered", Callable(self, "on_hazard_area_entered"))
-	$AnimatedSprite2D.connect("frame_changed", Callable(self, "on_animated_sprite_frame_changed"))
+	#changed
+	
+	$HitboxArea.area_entered.connect(on_hazard_area_entered)
+	$AnimatedSprite2D.frame_changed.connect(on_animated_sprite_frame_changed)
+	
+	#END: changed
+	
 	defaultHazardMask = $HitboxArea.collision_mask
 
 func _process(delta):
@@ -62,7 +66,13 @@ func process_normal(delta):
 	var inputVector = get_input_vector()
 	
 	if(inputVector.x == 0):
-		velocity.x = lerp(0, (int) velocity.x, pow(2, -20.0*delta))
+		var vectorExperimental = Vector2.ZERO
+		vectorExperimental.x = velocity.x
+		vectorExperimental.move_toward(Vector2.ZERO, delta)
+		velocity.x = vectorExperimental.x
+		#velocity.x.move_toward(0, velocity.x, pow(2, -20*delta))
+		
+		
 	
 	velocity.x = clamp(velocity.x, -maxWalkSpeed, maxWalkSpeed)
 	
@@ -110,10 +120,8 @@ func process_normal(delta):
 		
 	velocity.x += inputVector.x * xAcceleration * delta
 	var wasOnFloor = is_on_floor()
-	set_velocity(velocity)
-	set_up_direction(Vector2.UP)
+	#velocity = move_and_slide(velocity, Vector2.UP)
 	move_and_slide()
-	velocity = velocity
 
 	if(!is_on_floor()):
 		#call_deferred("disable_floor_hitbox")
@@ -135,16 +143,13 @@ func process_dash(delta):
 		$DashParticles.emitting = true
 		$"/root/Helpers".apply_camera_shake(.75)
 		$DashArea/CollisionShape2D.disabled = false
-		$HitboxArea.collision_mask = dashHazardMask
+		#$HitboxArea.collision_mask = dashHazardMask
 		var inputVector = get_input_vector()
 		var directionMod = 1 if $AnimatedSprite2D.flip_h else -1
 		velocity = Vector2(maxDashSpeed * directionMod, 0)
 	
-	set_velocity(velocity)
-	set_up_direction(Vector2.UP)
-	move_and_slide()
-	velocity = velocity
-	velocity.x = lerp(0, velocity.x, pow(2, -8 * delta))
+	#velocity = move_and_slide(velocity, Vector2.UP)
+	#velocity.x = lerp(0, velocity.x, pow(2, -8 * delta))
 	if (abs(velocity.x) < minDashSpeed):
 		call_deferred("change_state", State.NORMAL)
 
@@ -179,7 +184,8 @@ func kill():
 	isTerminal = true
 	var playerDeathInstance = playerDeathScene.instantiate()
 	playerDeathInstance.velocity = velocity
-	get_parent().add_sibling(self, playerDeathInstance)
+	#get_parent().add_child_below_node(self, playerDeathInstance)
+	get_parent().add_child(playerDeathInstance)
 	playerDeathInstance.global_position = global_position
 	emit_signal("died")
 

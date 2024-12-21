@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 var enemyDeathScene = preload("res://scenes/EnemyDeath.tscn")
-@export var isSpawning = true
+@export var isSpawning: bool = true
 
 var maxSpeed = 2000
 #var velocity = Vector2.ZERO

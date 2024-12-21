@@ -96,8 +96,8 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="1"]
-radius = 0.0
-height = 0.0
+radius = 6.0
+height = 16.0
 
 [sub_resource type="RectangleShape2D" id="5"]
 size = Vector2(17.9999, 14.9968)
@@ -174,16 +174,16 @@ collision_layer = 524288
 collision_mask = 524288
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PickupArea"]
-visible = false
 position = Vector2(0, -10)
 shape = SubResource("3")
 
 [node name="HitboxArea" type="Area2D" parent="."]
-collision_layer = 393216
-collision_mask = 393216
+collision_layer = 393218
+collision_mask = 393218
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HitboxArea"]
 visible = false
+light_mask = 0
 position = Vector2(0, -7)
 shape = SubResource("4")
 
@@ -194,10 +194,12 @@ animation = &"walk"
 frame = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -8)
+visible = false
+position = Vector2(0, -9)
 shape = SubResource("1")
 
 [node name="FloorCollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 position = Vector2(0.00157222, -7.50158)
 rotation = -0.00315379
 shape = SubResource("5")

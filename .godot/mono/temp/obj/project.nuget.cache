@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Udnu17YphvKQPGux7b0XsHCTY/iavR2CKVxe4ootRplGWqwFInjEKusmoV5jpfe7dRaLVXC0P5ST/QbL4EWbpw==",
+  "dgSpecHash": "qGShP//QIWmKCSLUoQofpNA+spOEPqLZs1Kzx0m70By+3bnLMn2NVqYCJiiVwsH5Z7Hn4yJp/Lpxx788+4xBgg==",
   "success": true,
-  "projectFilePath": "C:\\_dev\\game-dev\\Godot4Games\\Bounty hounter\\Bounty hounter.csproj",
+  "projectFilePath": "C:\\Users\\julie\\OneDrive\\Desktop\\Godot4 Games\\Bounty-Hounter\\Bounty hounter.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\stefa\\.nuget\\packages\\godot.sourcegenerators\\4.2.2\\godot.sourcegenerators.4.2.2.nupkg.sha512",
-    "C:\\Users\\stefa\\.nuget\\packages\\godotsharp\\4.2.2\\godotsharp.4.2.2.nupkg.sha512",
-    "C:\\Users\\stefa\\.nuget\\packages\\godotsharpeditor\\4.2.2\\godotsharpeditor.4.2.2.nupkg.sha512"
+    "C:\\Users\\julie\\.nuget\\packages\\godot.sourcegenerators\\4.2.2\\godot.sourcegenerators.4.2.2.nupkg.sha512",
+    "C:\\Users\\julie\\.nuget\\packages\\godotsharp\\4.2.2\\godotsharp.4.2.2.nupkg.sha512",
+    "C:\\Users\\julie\\.nuget\\packages\\godotsharpeditor\\4.2.2\\godotsharpeditor.4.2.2.nupkg.sha512",
+    "C:\\Users\\julie\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\julie\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\julie\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
   ],
   "logs": []
 }

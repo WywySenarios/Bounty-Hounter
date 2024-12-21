@@ -1,87 +1,85 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=3 uid="uid://3nayv3kybdaf"]
 
-[ext_resource path="res://assets/effects/particles.png" type="Texture2D" id=1]
+[ext_resource type="Texture2D" uid="uid://cxqqko7f0fa0c" path="res://assets/effects/particles.png" id="1"]
 
-[sub_resource type="Animation" id=7]
+[sub_resource type="Animation" id="7"]
 resource_name = "default"
 length = 0.7
 tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
 tracks/0/path = NodePath("GPUParticles2D:emitting")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
 tracks/0/keys = {
-"times": PackedFloat32Array( 0 ),
-"transitions": PackedFloat32Array( 1 ),
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ true ]
+"values": [true]
 }
 tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
 tracks/1/path = NodePath(".")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
 tracks/1/keys = {
-"times": PackedFloat32Array( 0.7 ),
-"transitions": PackedFloat32Array( 1 ),
-"values": [ {
-"args": [  ],
-"method": "queue_free"
-} ]
+"times": PackedFloat32Array(0.7),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
 }
 
-[sub_resource type="CanvasItemMaterial" id=1]
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_y4cxi"]
+_data = {
+"default": SubResource("7")
+}
+
+[sub_resource type="CanvasItemMaterial" id="1"]
 particles_animation = true
 particles_anim_h_frames = 3
 particles_anim_v_frames = 1
 particles_anim_loop = false
 
-[sub_resource type="Gradient" id=5]
-offsets = PackedFloat32Array( 0.472906, 1 )
-colors = PackedColorArray( 1, 1, 1, 0.658824, 1, 1, 1, 0.172549 )
+[sub_resource type="Gradient" id="5"]
+offsets = PackedFloat32Array(0.472906, 1)
+colors = PackedColorArray(1, 1, 1, 0.658824, 1, 1, 1, 0.172549)
 
-[sub_resource type="GradientTexture2D" id=6]
-gradient = SubResource( 5 )
+[sub_resource type="GradientTexture2D" id="6"]
+gradient = SubResource("5")
 
-[sub_resource type="Curve" id=3]
-_data = [ Vector2( 0.0497738, 0 ), 0.0, 0.0, 0, 0, Vector2( 0.158371, 1 ), 0.0, 0.0, 0, 0, Vector2( 0.719457, 1 ), 0.0, 0.0, 0, 0, Vector2( 1, 0 ), 0.0, 0.0, 0, 0 ]
+[sub_resource type="Curve" id="3"]
+_data = [Vector2(0.0497738, 0), 0.0, 0.0, 0, 0, Vector2(0.158371, 1), 0.0, 0.0, 0, 0, Vector2(0.719457, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
 
-[sub_resource type="CurveTexture" id=4]
-curve = SubResource( 3 )
+[sub_resource type="CurveTexture" id="4"]
+curve = SubResource("3")
 
-[sub_resource type="ParticleProcessMaterial" id=2]
+[sub_resource type="ParticleProcessMaterial" id="2"]
 lifetime_randomness = 0.5
 emission_shape = 1
 emission_sphere_radius = 3.0
-flag_disable_z = true
-direction = Vector3( 0, 1, 0 )
-gravity = Vector3( 0, -10, 0 )
-initial_velocity = 5.0
-initial_velocity_random = 1.0
-angular_velocity = 180.0
-angular_velocity_random = 1.0
-orbit_velocity = 0.0
-orbit_velocity_random = 0.0
-scale = 1.5
-scale_curve = SubResource( 4 )
-color_ramp = SubResource( 6 )
-anim_offset = 1.0
-anim_offset_random = 1.0
+direction = Vector3(0, 1, 0)
+gravity = Vector3(0, -10, 0)
+scale_curve = SubResource("4")
+color_ramp = SubResource("6")
 
 [node name="FootstepParticles" type="Node2D"]
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_y4cxi")
+}
 autoplay = "default"
-anims/default = SubResource( 7 )
 
 [node name="GPUParticles2D" type="GPUParticles2D" parent="."]
-material = SubResource( 1 )
+material = SubResource("1")
 emitting = false
 amount = 3
+process_material = SubResource("2")
+texture = ExtResource("1")
 lifetime = 0.9
 one_shot = true
 explosiveness = 0.9
-process_material = SubResource( 2 )
-texture = ExtResource( 1 )

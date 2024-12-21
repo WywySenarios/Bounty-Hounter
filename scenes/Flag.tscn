@@ -1,40 +1,46 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=7 format=3 uid="uid://bj7bfvb2tdiu1"]
 
-[ext_resource path="res://assets/flag/tile_0112.png" type="Texture2D" id=1]
-[ext_resource path="res://assets/flag/tile_0131.png" type="Texture2D" id=2]
-[ext_resource path="res://assets/flag/tile_0111.png" type="Texture2D" id=3]
-[ext_resource path="res://scripts/Flag.gd" type="Script" id=4]
+[ext_resource type="Texture2D" uid="uid://l64qltovt7bf" path="res://assets/flag/tile_0112.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://jjqiv6o0tmxx" path="res://assets/flag/tile_0131.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dbvfv6x74585" path="res://assets/flag/tile_0111.png" id="3"]
+[ext_resource type="Script" path="res://scripts/Flag.gd" id="4"]
 
-[sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 8, 18 )
+[sub_resource type="RectangleShape2D" id="2"]
+size = Vector2(16, 36)
 
-[sub_resource type="SpriteFrames" id=1]
-animations = [ {
-"frames": [ ExtResource( 3 ), ExtResource( 1 ) ],
+[sub_resource type="SpriteFrames" id="1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1")
+}],
 "loop": true,
-"name": "default",
+"name": &"default",
 "speed": 12.0
-} ]
+}]
 
 [node name="Flag" type="Node2D"]
-script = ExtResource( 4 )
+script = ExtResource("4")
 
 [node name="Area2D" type="Area2D" parent="."]
 collision_layer = 524288
-collision_mask = 0
+collision_mask = 524288
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2( 3, -18 )
-shape = SubResource( 2 )
+position = Vector2(3, -18)
+shape = SubResource("2")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource( 2 )
+texture = ExtResource("2")
 centered = false
-offset = Vector2( 0, -18 )
+offset = Vector2(0, -18)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2( 0, -18 )
-frames = SubResource( 1 )
-playing = true
+position = Vector2(0, -18)
+sprite_frames = SubResource("1")
+frame_progress = 0.318934
 centered = false
-offset = Vector2( 0, -18 )
+offset = Vector2(0, -18)
